@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'QMXMFunModule_Example' do
+  pod 'QMXMFunModule', :path => '../'
+
+  target 'QMXMFunModule_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
