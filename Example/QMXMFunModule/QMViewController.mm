@@ -7,6 +7,7 @@
 //
 
 #import "QMViewController.h"
+#import "MediaplayerControl.h"
 
 @interface QMViewController ()
 
@@ -17,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning

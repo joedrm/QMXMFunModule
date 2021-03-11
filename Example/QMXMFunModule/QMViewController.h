@@ -6,7 +6,7 @@
 //  Copyright (c) 2021 wangfang. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface QMViewController : UIViewController
 

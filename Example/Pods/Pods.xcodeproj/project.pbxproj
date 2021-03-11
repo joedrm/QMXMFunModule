@@ -5498,6 +5498,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6055D0E5DDA58443BDB03E1A9BC49099 /* QMXMFunModule.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -5874,6 +5875,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 937A83C8430EDBDC85D94F47276727F8 /* QMXMFunModule.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

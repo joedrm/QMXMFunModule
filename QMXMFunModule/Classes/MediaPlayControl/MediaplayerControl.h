@@ -13,6 +13,7 @@
  *****/
 #import "FunMsgListener.h"
 #import "FunSDK/FunSDK.h"
+#import <UIKit/UIKit.h>
 //播放方式，实时预览和设备回放
 enum MediaPlayerType{
     MediaPlayerTypeRealPlay,
