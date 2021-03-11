@@ -21,11 +21,58 @@
   "source_files": "QMXMFunModule/Classes/**/*",
   "public_header_files": "QMXMFunModule/Classes/**/*.h",
   "prefix_header_file": "QMXMFunModule/Classes/Supporting/MobileVideo-Prefix.pch",
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "OpenGLES",
+    "GLKit",
+    "VideoToolbox",
+    "OpenAL",
+    "MediaPlayer",
+    "CoreMedia",
+    "AudioToolBox",
+    "UserNotifications",
+    "AssetsLibrary",
+    "AVKit"
+  ],
+  "libraries": [
+    "resolv",
+    "bz2",
+    "iconv",
+    "c",
+    "z"
+  ],
   "vendored_frameworks": [
     "QMXMFunModule/Classes/Supporting/library/*.framework"
   ],
-  "vendored_libraries": [
-    "QMXMFunModule/Classes/Supporting/Libraries/libstdc++.6.0.9.tbd",
-    "QMXMFunModule/Classes/Supporting/Libraries/libzbar.a"
-  ]
+  "user_target_xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO",
+    "BUILD_ACTIVE_ARCHITURE_ONLY": "YES"
+  },
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "TZImagePickerController": [
+
+    ],
+    "JXPhotoBrowser": [
+
+    ],
+    "Toast": [
+
+    ],
+    "LFMediaEditingController": [
+
+    ],
+    "MJExtension": [
+
+    ]
+  }
 }

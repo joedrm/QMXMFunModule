@@ -23,7 +23,9 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		74CAB8028BDE085C483825F8 /* Pods_QMXMFunModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECF5D4718E08F4F8064B9CF /* Pods_QMXMFunModule_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9A3029F07049EFF8B6DD1D19 /* Pods_QMXMFunModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A14BD1FBCAF441A187D0DB /* Pods_QMXMFunModule_Tests.framework */; };
+		B6F7E98425F9D82C00C3CB0D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F7E98325F9D82C00C3CB0D /* UserNotifications.framework */; };
+		B6F7E98D25F9DFA700C3CB0D /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F7E98C25F9DFA700C3CB0D /* UserNotificationsUI.framework */; };
+		B6F7E98F25F9DFAF00C3CB0D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F7E98E25F9DFAF00C3CB0D /* NotificationCenter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		358FC4A2F7B22FB74482E521 /* QMXMFunModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QMXMFunModule.podspec; path = ../QMXMFunModule.podspec; sourceTree = "<group>"; };
-		5B77206217531CBFDA6C97E1 /* Pods-QMXMFunModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMXMFunModule_Example.release.xcconfig"; path = "Target Support Files/Pods-QMXMFunModule_Example/Pods-QMXMFunModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		358FC4A2F7B22FB74482E521 /* QMXMFunModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QMXMFunModule.podspec; path = ../QMXMFunModule.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QMXMFunModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMXMFunModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +62,13 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ECF5D4718E08F4F8064B9CF /* Pods_QMXMFunModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMXMFunModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2A14BD1FBCAF441A187D0DB /* Pods_QMXMFunModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMXMFunModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB6F258397C48BB9DBDA350B /* Pods-QMXMFunModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMXMFunModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QMXMFunModule_Tests/Pods-QMXMFunModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BF49066BA6E4A534EFE41317 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DFEC61BAB1D961473B4FEB8D /* Pods-QMXMFunModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMXMFunModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-QMXMFunModule_Example/Pods-QMXMFunModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E3630CBE2B783261319554B4 /* Pods-QMXMFunModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMXMFunModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-QMXMFunModule_Tests/Pods-QMXMFunModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E68B880ADC64A80A911958ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B67E33A46ACDFCAF6B071CCF /* Pods-QMXMFunModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMXMFunModule_Example.release.xcconfig"; path = "Target Support Files/Pods-QMXMFunModule_Example/Pods-QMXMFunModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B6F7E98325F9D82C00C3CB0D /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		B6F7E98C25F9DFA700C3CB0D /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		B6F7E98E25F9DFAF00C3CB0D /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		BF49066BA6E4A534EFE41317 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E68B880ADC64A80A911958ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E89577543D5A549568FAA722 /* Pods-QMXMFunModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMXMFunModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-QMXMFunModule_Example/Pods-QMXMFunModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F7E98F25F9DFAF00C3CB0D /* NotificationCenter.framework in Frameworks */,
+				B6F7E98D25F9DFA700C3CB0D /* UserNotificationsUI.framework in Frameworks */,
+				B6F7E98425F9D82C00C3CB0D /* UserNotifications.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -88,7 +93,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9A3029F07049EFF8B6DD1D19 /* Pods_QMXMFunModule_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,12 +123,14 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6F7E98E25F9DFAF00C3CB0D /* NotificationCenter.framework */,
+				B6F7E98C25F9DFA700C3CB0D /* UserNotificationsUI.framework */,
+				B6F7E98325F9D82C00C3CB0D /* UserNotifications.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				7ECF5D4718E08F4F8064B9CF /* Pods_QMXMFunModule_Example.framework */,
-				B2A14BD1FBCAF441A187D0DB /* Pods_QMXMFunModule_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,12 +194,9 @@
 		AD58A8AFEE85EEF7396D9351 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DFEC61BAB1D961473B4FEB8D /* Pods-QMXMFunModule_Example.debug.xcconfig */,
-				5B77206217531CBFDA6C97E1 /* Pods-QMXMFunModule_Example.release.xcconfig */,
-				BB6F258397C48BB9DBDA350B /* Pods-QMXMFunModule_Tests.debug.xcconfig */,
-				E3630CBE2B783261319554B4 /* Pods-QMXMFunModule_Tests.release.xcconfig */,
+				E89577543D5A549568FAA722 /* Pods-QMXMFunModule_Example.debug.xcconfig */,
+				B67E33A46ACDFCAF6B071CCF /* Pods-QMXMFunModule_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -223,11 +226,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "QMXMFunModule_Tests" */;
 			buildPhases = (
-				D35038CA7DDB9AC39BB49F88 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				3CB1310004197DA6F02171A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wangfang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = M79X6B3PYT;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,33 +308,33 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-QMXMFunModule_Example/Pods-QMXMFunModule_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JXPhotoBrowser/JXPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/LFAssetExportSession/LFAssetExportSession.framework",
+				"${BUILT_PRODUCTS_DIR}/LFFilterSuite/LFFilterSuite.framework",
+				"${BUILT_PRODUCTS_DIR}/LFMediaEditingController/LFMediaEditingController.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/QMXMFunModule/QMXMFunModule.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LFAssetExportSession.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LFFilterSuite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LFMediaEditingController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMXMFunModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QMXMFunModule_Example/Pods-QMXMFunModule_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3CB1310004197DA6F02171A0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QMXMFunModule_Tests/Pods-QMXMFunModule_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QMXMFunModule_Tests/Pods-QMXMFunModule_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4B6335B7BB98ACEC6715DC1D /* [CP] Check Pods Manifest.lock */ = {
@@ -348,28 +353,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-QMXMFunModule_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D35038CA7DDB9AC39BB49F88 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QMXMFunModule_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -510,9 +493,11 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFEC61BAB1D961473B4FEB8D /* Pods-QMXMFunModule_Example.debug.xcconfig */;
+			baseConfigurationReference = E89577543D5A549568FAA722 /* Pods-QMXMFunModule_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M79X6B3PYT;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QMXMFunModule/QMXMFunModule-Prefix.pch";
 				INFOPLIST_FILE = "QMXMFunModule/QMXMFunModule-Info.plist";
@@ -526,9 +511,11 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B77206217531CBFDA6C97E1 /* Pods-QMXMFunModule_Example.release.xcconfig */;
+			baseConfigurationReference = B67E33A46ACDFCAF6B071CCF /* Pods-QMXMFunModule_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M79X6B3PYT;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QMXMFunModule/QMXMFunModule-Prefix.pch";
 				INFOPLIST_FILE = "QMXMFunModule/QMXMFunModule-Info.plist";
@@ -542,7 +529,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB6F258397C48BB9DBDA350B /* Pods-QMXMFunModule_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -567,7 +553,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3630CBE2B783261319554B4 /* Pods-QMXMFunModule_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
