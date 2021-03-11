@@ -1,0 +1,16 @@
+PODS:
+  - QMXMFunModule (0.1.0)
+
+DEPENDENCIES:
+  - QMXMFunModule (from `../`)
+
+EXTERNAL SOURCES:
+  QMXMFunModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QMXMFunModule: 6601a887dae3f744078b0898512b5e3620ea95fc
+
+PODFILE CHECKSUM: e378f7ec4f31d9442fd8f1f373df09b7f4cfe3a2
+
+COCOAPODS: 1.9.3

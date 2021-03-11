@@ -1,0 +1,31 @@
+{
+  "name": "QMXMFunModule",
+  "version": "0.1.0",
+  "summary": "A short description of QMXMFunModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangfang/QMXMFunModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangfang": "wangfang@sengled.com"
+  },
+  "source": {
+    "git": "https://github.com/wangfang/QMXMFunModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "QMXMFunModule/Classes/**/*",
+  "public_header_files": "QMXMFunModule/Classes/**/*.h",
+  "prefix_header_file": "QMXMFunModule/Classes/Supporting/MobileVideo-Prefix.pch",
+  "vendored_frameworks": [
+    "QMXMFunModule/Classes/Supporting/library/*.framework"
+  ],
+  "vendored_libraries": [
+    "QMXMFunModule/Classes/Supporting/Libraries/libstdc++.6.0.9.tbd",
+    "QMXMFunModule/Classes/Supporting/Libraries/libzbar.a"
+  ]
+}
