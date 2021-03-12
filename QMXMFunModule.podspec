@@ -3,7 +3,8 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = '雄迈SDK组件'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+雄迈SDK组件，方便项目解耦，目前还不支持远程依赖，使用时Download到本地后，在Podfile添加本地依赖：
+pod 'QMXMFunModule', :path => 'QMXMFunModule'
                        DESC
 
   s.homepage         = 'https://github.com/wangdongyang/QMXMFunModule'

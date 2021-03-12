@@ -13,11 +13,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-QMXMFunModule is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+雄迈SDK组件，方便项目解耦，目前还不支持远程依赖，使用时Download到本地后，在Podfile添加本地依赖：
 
 ```ruby
-pod 'QMXMFunModule'
+pod 'QMXMFunModule', :path => 'QMXMFunModule'
 ```
 
 ## Author
