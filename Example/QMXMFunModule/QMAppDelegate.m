@@ -7,12 +7,22 @@
 //
 
 #import "QMAppDelegate.h"
+#import "SDKInitializeModel.h"
+#import "QMViewController.h"
 
 @implementation QMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [SDKInitializeModel SDKInit];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    self.window.backgroundColor = UIColor.whiteColor;
+    
+    QMViewController* rootVC = [[QMViewController alloc] init];
+    UINavigationController *nv = [[UINavigationController alloc] initWithRootViewController:rootVC];
+    self.window.rootViewController = nv;
     return YES;
 }
 

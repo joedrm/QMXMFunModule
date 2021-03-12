@@ -6,6 +6,7 @@
 
 #import <Availability.h>
 #import "QMXMFunModuleHeader.h"
+#import "SDKInitializeModel.h"
 
 
 #import "NSString+Category.h"
