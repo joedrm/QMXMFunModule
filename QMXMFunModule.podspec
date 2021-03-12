@@ -1,16 +1,16 @@
 Pod::Spec.new do |s|
   s.name             = 'QMXMFunModule'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of QMXMFunModule.'
+  s.summary          = '雄迈SDK组件'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wangfang/QMXMFunModule'
+  s.homepage         = 'https://github.com/wangdongyang/QMXMFunModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wangfang' => 'wangfang@sengled.com' }
-  s.source           = { :git => 'https://github.com/wangfang/QMXMFunModule.git', :tag => s.version.to_s }
+  s.author           = { 'wangdongyang' => '877197753@qq.com' }
+  s.source           = { :git => 'https://github.com/wangdongyang/QMXMFunModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
