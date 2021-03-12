@@ -19,7 +19,7 @@ pod 'QMXMFunModule', :path => 'QMXMFunModule'
   s.source_files = 'QMXMFunModule/Classes/**/*.{h,m,mm}'
   
    s.resource_bundles = {
-     'QMXMFunModule' => ['QMXMFunModule/Assets/*.png', 'QMXMFunModule/Classes/XMFun/Supporting/Libraries/SVProgressHUD.bundle']
+     'QMXMFunModule' => ['QMXMFunModule/Assets/*.png', 'QMXMFunModule/Classes/XMFun/Supporting/Libraries/SVProgressHUD.bundle', 'QMXMFunModule/Classes/Sections/SectionsImages.bundle']
    }
 #  1、libz.tbd
 #  2、libiconv,
@@ -51,7 +51,7 @@ pod 'QMXMFunModule', :path => 'QMXMFunModule'
 #'libresolv','libc.tbd','libbz2','libiconv','libz.tbd'
 
   s.public_header_files = 'QMXMFunModule/Classes/**/*.h'
-  s.prefix_header_file = 'QMXMFunModule/Classes/XMFun/Supporting/MobileVideo-Prefix.pch'
+  s.prefix_header_file = 'QMXMFunModule/Classes/Base/MobileVideo-Prefix.pch'
   s.frameworks = ['UIKit','AVFoundation', 'OpenGLES','GLKit','VideoToolbox','OpenAL','MediaPlayer', 'CoreMedia', 'AudioToolBox', 'UserNotifications', 'AssetsLibrary', 'AVKit',]
 #  s.library = 'z'
   s.libraries = 'resolv','bz2','iconv','c', 'z'#'c.tbd','z.tbd',
@@ -59,11 +59,11 @@ pod 'QMXMFunModule', :path => 'QMXMFunModule'
 #  s.vendored_libraries = ['QMXMFunModule/Classes/Supporting/Libraries/libstdc++.6.0.9.tbd', 'QMXMFunModule/Classes/Supporting/Libraries/libzbar.a']
   s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   s.pod_target_xcconfig = {'ENABLE_BITCODE' => 'NO', 'BUILD_ACTIVE_ARCHITURE_ONLY'=>'YES'}
-#  s.dependency 'AFNetworking'
-#  s.dependency 'Masonry'
-#  s.dependency 'TZImagePickerController'
-#  s.dependency 'JXPhotoBrowser'
-#  s.dependency 'Toast'
-#  s.dependency 'LFMediaEditingController'
-#  s.dependency 'MJExtension'
+  s.dependency 'AFNetworking'
+  s.dependency 'Masonry'
+  s.dependency 'TZImagePickerController'
+  s.dependency 'JXPhotoBrowser'
+  s.dependency 'Toast'
+  s.dependency 'LFMediaEditingController'
+  s.dependency 'MJExtension'
 end

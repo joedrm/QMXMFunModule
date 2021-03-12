@@ -22,11 +22,12 @@
   "resource_bundles": {
     "QMXMFunModule": [
       "QMXMFunModule/Assets/*.png",
-      "QMXMFunModule/Classes/XMFun/Supporting/Libraries/SVProgressHUD.bundle"
+      "QMXMFunModule/Classes/XMFun/Supporting/Libraries/SVProgressHUD.bundle",
+      "QMXMFunModule/Classes/Sections/SectionsImages.bundle"
     ]
   },
   "public_header_files": "QMXMFunModule/Classes/**/*.h",
-  "prefix_header_file": "QMXMFunModule/Classes/XMFun/Supporting/MobileVideo-Prefix.pch",
+  "prefix_header_file": "QMXMFunModule/Classes/Base/MobileVideo-Prefix.pch",
   "frameworks": [
     "UIKit",
     "AVFoundation",
@@ -57,5 +58,28 @@
   "pod_target_xcconfig": {
     "ENABLE_BITCODE": "NO",
     "BUILD_ACTIVE_ARCHITURE_ONLY": "YES"
+  },
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "TZImagePickerController": [
+
+    ],
+    "JXPhotoBrowser": [
+
+    ],
+    "Toast": [
+
+    ],
+    "LFMediaEditingController": [
+
+    ],
+    "MJExtension": [
+
+    ]
   }
 }

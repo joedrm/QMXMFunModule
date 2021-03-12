@@ -7,7 +7,7 @@
 //
 
 #import "QMViewController.h"
-#import "MediaplayerControl.h"
+#import "QMXMPlayViewController.h"
 
 @interface QMViewController ()
 

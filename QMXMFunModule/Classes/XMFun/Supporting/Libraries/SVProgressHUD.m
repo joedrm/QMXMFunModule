@@ -378,15 +378,6 @@
 	[self dismissWithStatus:string error:error afterDelay:0.9];
 }
 
-- (UIImage *) getBundleSource:(NSString * )name{
-    //拼接bundle
-    NSString * bundleNameWithExtension = @"QMXMFunModule.bundle/SVProgressHUD.bundle";
-    NSString * bundlePath = [[NSBundle bundleForClass:[SVProgressHUD class]].resourcePath
-                                 stringByAppendingPathComponent:bundleNameWithExtension];
-    NSBundle * bundle = [NSBundle bundleWithPath:bundlePath];
-    UIImage * image = [UIImage imageNamed:name inBundle:bundle compatibleWithTraitCollection:nil];
-    return image;
-}
 
 - (void)dismissWithStatus:(NSString *)string error:(BOOL)error afterDelay:(NSTimeInterval)seconds {
     dispatch_async(dispatch_get_main_queue(), ^{
