@@ -1,7 +1,7 @@
 BUILD_ACTIVE_ARCHITURE_ONLY = YES
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/QMXMFunModule
 ENABLE_BITCODE = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../QMXMFunModule/Classes/Supporting/library"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../QMXMFunModule/Classes/XMFun/Supporting/library"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 OTHER_LDFLAGS = $(inherited) -l"bz2" -l"c" -l"iconv" -l"resolv" -l"z" -framework "AVFoundation" -framework "AVKit" -framework "AssetsLibrary" -framework "AudioToolBox" -framework "CoreMedia" -framework "FunSDK" -framework "GLKit" -framework "MediaPlayer" -framework "OpenAL" -framework "OpenGLES" -framework "UIKit" -framework "UserNotifications" -framework "VideoToolbox" -framework "XMNetInterface"
 PODS_BUILD_DIR = ${BUILD_DIR}

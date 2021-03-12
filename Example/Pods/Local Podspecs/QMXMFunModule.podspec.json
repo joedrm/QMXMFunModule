@@ -1,18 +1,18 @@
 {
   "name": "QMXMFunModule",
   "version": "0.1.0",
-  "summary": "A short description of QMXMFunModule.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wangfang/QMXMFunModule",
+  "summary": "雄迈SDK组件",
+  "description": "雄迈SDK组件，方便项目解耦，目前还不支持远程依赖，使用时Download到本地后，在Podfile添加本地依赖：\npod 'QMXMFunModule', :path => 'QMXMFunModule'",
+  "homepage": "https://github.com/wangdongyang/QMXMFunModule",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "wangfang": "wangfang@sengled.com"
+    "wangdongyang": "877197753@qq.com"
   },
   "source": {
-    "git": "https://github.com/wangfang/QMXMFunModule.git",
+    "git": "https://github.com/wangdongyang/QMXMFunModule.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -22,11 +22,11 @@
   "resource_bundles": {
     "QMXMFunModule": [
       "QMXMFunModule/Assets/*.png",
-      "QMXMFunModule/Classes/Supporting/Libraries/SVProgressHUD.bundle/*.png"
+      "QMXMFunModule/Classes/XMFun/Supporting/Libraries/SVProgressHUD.bundle"
     ]
   },
   "public_header_files": "QMXMFunModule/Classes/**/*.h",
-  "prefix_header_file": "QMXMFunModule/Classes/Supporting/MobileVideo-Prefix.pch",
+  "prefix_header_file": "QMXMFunModule/Classes/XMFun/Supporting/MobileVideo-Prefix.pch",
   "frameworks": [
     "UIKit",
     "AVFoundation",
@@ -49,7 +49,7 @@
     "z"
   ],
   "vendored_frameworks": [
-    "QMXMFunModule/Classes/Supporting/library/*.framework"
+    "QMXMFunModule/Classes/XMFun/Supporting/library/*.framework"
   ],
   "user_target_xcconfig": {
     "ENABLE_BITCODE": "NO"

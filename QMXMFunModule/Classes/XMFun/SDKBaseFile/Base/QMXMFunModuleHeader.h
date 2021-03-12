@@ -17,6 +17,7 @@
 #import "NSUserDefaultData.h"
 #import "MessageUI.h"
 #import "DeviceControl.h"
+#import "QMBundleTool.h"
 
 // 开放平台App信息，需要在开放平台上面创建APP来生成，每一个APP对应一组不同并且唯一的平台信息，不能重复
 #define APPUUID "96a2f63113ea44c0bb5bd4db060102a1"   //客户唯一标识

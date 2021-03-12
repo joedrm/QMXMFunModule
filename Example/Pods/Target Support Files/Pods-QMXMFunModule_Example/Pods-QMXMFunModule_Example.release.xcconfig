@@ -1,5 +1,5 @@
 ENABLE_BITCODE = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/QMXMFunModule" "${PODS_ROOT}/../../QMXMFunModule/Classes/Supporting/library"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/QMXMFunModule" "${PODS_ROOT}/../../QMXMFunModule/Classes/XMFun/Supporting/library"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/QMXMFunModule/QMXMFunModule.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'

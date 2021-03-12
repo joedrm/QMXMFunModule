@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "QMBundleTool.h"
 #import "LanguageManager.h"
 #import "LoginShowControl.h"
 #import "MessageUI.h"
@@ -136,7 +137,6 @@
 #import "OSCRule.h"
 #import "PEARule.h"
 #import "PerimeterRule.h"
-#import "Points.h"
 #import "RuleConfig.h"
 #import "SpclRgs.h"
 #import "StartPt.h"
@@ -156,7 +156,6 @@
 #import "NetServerFunction.h"
 #import "OtherFunction.h"
 #import "PreviewFunction.h"
-#import "SystemFunction.h"
 #import "TipShow.h"
 #import "WorkMode_CapturePriority.h"
 #import "CarInfo.h"
@@ -212,7 +211,6 @@
 #import "NetWork_NetDHCP.h"
 #import "NetWork_Wifi.h"
 #import "NetWork_SetEnableVideo.h"
-#import "NetWork_Wifi.h"
 #import "OPSCalendar.h"
 #import "Camera_Param.h"
 #import "ExposureParam.h"
