@@ -197,28 +197,10 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JXPhotoBrowser/JXPhotoBrowser.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/LFAssetExportSession/LFAssetExportSession.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/LFFilterSuite/LFFilterSuite.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/LFMediaEditingController/LFMediaEditingController.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMXMFunModule/QMXMFunModule.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Toast/Toast.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/JXPhotoBrowser/JXPhotoBrowser.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/LFAssetExportSession/LFAssetExportSession.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/LFFilterSuite/LFFilterSuite.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/LFMediaEditingController/LFMediaEditingController.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QMXMFunModule/QMXMFunModule.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Toast/Toast.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

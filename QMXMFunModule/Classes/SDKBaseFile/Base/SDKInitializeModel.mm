@@ -7,7 +7,7 @@
 //
 // SDKInitializeModel  初始化FunSDK的类文件，SDK必须初始化才能使用其他功能
 #import "SDKInitializeModel.h"
-#import "FunSDK/FunSDK.h"
+#import "QMXMFunModule/FunSDK.h"
 
 @implementation SDKInitializeModel
 

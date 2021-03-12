@@ -6,8 +6,6 @@
 //  Copyright © 2018年 XM. All rights reserved.
 //
 
-NSString * const KFisheyeMode = @"Fisheye_model";
-NSString * const picturePlist = @"picture.plist";
 
 #import <Foundation/Foundation.h>
 

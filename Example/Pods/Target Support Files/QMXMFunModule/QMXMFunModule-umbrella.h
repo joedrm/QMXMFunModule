@@ -111,6 +111,7 @@
 #import "BaseViewController.h"
 #import "ConfigControllerBase.h"
 #import "FunMsgListener.h"
+#import "QMXMFunModuleHeader.h"
 #import "SDKInitializeModel.h"
 #import "Detect_BlindDetect.h"
 #import "Detect_LossDetect.h"

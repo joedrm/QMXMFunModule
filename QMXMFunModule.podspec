@@ -15,11 +15,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'QMXMFunModule/Classes/**/*'
+  s.source_files = 'QMXMFunModule/Classes/**/*.{h,m,mm}'
   
-  # s.resource_bundles = {
-  #   'QMXMFunModule' => ['QMXMFunModule/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'QMXMFunModule' => ['QMXMFunModule/Assets/*.png', 'QMXMFunModule/Classes/Supporting/Libraries/SVProgressHUD.bundle/*.png']
+   }
 #  1、libz.tbd
 #  2、libiconv,
 #  3、libbz2,
@@ -58,11 +58,11 @@ TODO: Add long description of the pod here.
 #  s.vendored_libraries = ['QMXMFunModule/Classes/Supporting/Libraries/libstdc++.6.0.9.tbd', 'QMXMFunModule/Classes/Supporting/Libraries/libzbar.a']
   s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   s.pod_target_xcconfig = {'ENABLE_BITCODE' => 'NO', 'BUILD_ACTIVE_ARCHITURE_ONLY'=>'YES'}
-  s.dependency 'AFNetworking'
-  s.dependency 'Masonry'
-  s.dependency 'TZImagePickerController'
-  s.dependency 'JXPhotoBrowser'
-  s.dependency 'Toast'
-  s.dependency 'LFMediaEditingController'
-  s.dependency 'MJExtension'
+#  s.dependency 'AFNetworking'
+#  s.dependency 'Masonry'
+#  s.dependency 'TZImagePickerController'
+#  s.dependency 'JXPhotoBrowser'
+#  s.dependency 'Toast'
+#  s.dependency 'LFMediaEditingController'
+#  s.dependency 'MJExtension'
 end
