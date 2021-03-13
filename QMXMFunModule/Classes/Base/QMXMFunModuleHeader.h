@@ -13,7 +13,6 @@
 #import "NSString+Path.h"
 #import "LanguageManager.h"
 #import "LoginShowControl.h"
-//#import "CommonControl.h"
 #import "NSUserDefaultData.h"
 #import "MessageUI.h"
 #import "DeviceControl.h"
@@ -88,11 +87,6 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 #define Handle  [self MsgHandle]
 #define SELF    [self MsgHandle]
 #define OS_IOS 1
-//
-#import "SVProgressHUD.h"
-//
-//#import "AppDelegate.h"
-
 
 //日期格式
 #define DateFormatter @"yyyy-MM-dd"
@@ -146,9 +140,5 @@ typedef NS_ENUM(NSInteger,XM_DEV_TYPE)
     XM_DEV_SMALL_V = 0x11110032,        // 小V
     CZ_DOORBELL         = 286457857, // 创泽门铃
 };
-
-
-
-
 
 #endif /* QMXMFunModuleHeader_h */

@@ -57,3 +57,4 @@
 #import "QMXMSnapshotAddCCell.h"
 #import "QMXMSnapshotCCellView.h"
 #import "QMXMSnapshotsView.h"
+#import "SVProgressHUD.h"
