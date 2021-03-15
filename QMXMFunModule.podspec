@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   
   s.source_files = 'QMXMFunModule/Classes/**/*.{h,m,mm}'
-  
+#  s.swift_versions = 5.0
   s.resource_bundles = {
     'QMXMFunModule' => ['QMXMFunModule/Assets/*.png', 'QMXMFunModule/Classes/XMFun/Supporting/Libraries/SVProgressHUD.bundle', 'QMXMFunModule/Classes/Sections/SectionsImages.bundle']
   }

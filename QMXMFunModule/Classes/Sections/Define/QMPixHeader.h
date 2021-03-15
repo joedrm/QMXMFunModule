@@ -15,8 +15,8 @@
 #define Test_Api    @"https://central.dev.goqomo.com/api/" //@"http://192.168.197.191:8801/api/"
 #define Release_Api @"https://central.dev.goqomo.com/api/"
 #define SCREEN_BOUNDS [UIScreen mainScreen].bounds
-#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
-#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+//#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+//#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
 
 #define QMKeyWindow [UIApplication sharedApplication].keyWindow
