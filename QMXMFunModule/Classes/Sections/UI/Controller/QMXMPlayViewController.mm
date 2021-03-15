@@ -381,12 +381,6 @@ UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
     talkControl.channel = mediaPlayer.channel;
     
     [toolView changeChannelName:channel.channelName];
-    
-    //    //鱼眼工具，非全景设备用不到这个
-    //    FishPlayControl *feyeControl = [[FishPlayControl alloc] init];
-    //    [feyeArray addObject:feyeControl];
-    
-    
 }
 
 #pragma mark - 界面初始化
@@ -490,7 +484,7 @@ UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
         make.top.mas_equalTo(NavHeight+realPlayViewHeight);
         make.bottom.mas_equalTo(commitBtn.mas_top);
     }];
-    
+    [self.tableView reloadData];
     self.keyBoradsSupport = [[SLScrollViewKeyboardSupport alloc] initWithScrollView:self.tableView];
 }
 
@@ -913,16 +907,16 @@ UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
 
 
 #pragma mark - LFPhotoEditingControllerDelegate
-//- (void)lf_PhotoEditingControllerDidCancel:(LFPhotoEditingController *)photoEditingVC {
-//    [photoEditingVC.navigationController popViewControllerAnimated:true];
-//}
-//
-//- (void)lf_PhotoEditingController:(LFPhotoEditingController *)photoEditingVC didFinishPhotoEdit:(LFPhotoEdit *)photoEdit {
-//    if (photoEdit != nil) {
-//        [self.snapshotsView replacePhotoImageIndex:self.photoEditIndex editedImage:photoEdit.editPreviewImage];
-//    }
-//    [photoEditingVC.navigationController popViewControllerAnimated:true];
-//}
+- (void)lf_PhotoEditingControllerDidCancel:(LFPhotoEditingController *)photoEditingVC {
+    [photoEditingVC.navigationController popViewControllerAnimated:true];
+}
+
+- (void)lf_PhotoEditingController:(LFPhotoEditingController *)photoEditingVC didFinishPhotoEdit:(LFPhotoEdit *)photoEdit {
+    if (photoEdit != nil) {
+        [self.snapshotsView replacePhotoImageIndex:self.photoEditIndex editedImage:photoEdit.editPreviewImage];
+    }
+    [photoEditingVC.navigationController popViewControllerAnimated:true];
+}
 
 
 
@@ -940,10 +934,18 @@ UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
 }
 
 - (void)photoEditWithImg:(UIImage *)currentImage {
-    
+    LFPhotoEditingController* editImgVC = [[LFPhotoEditingController alloc] init];
+    editImgVC.delegate = self;
+    editImgVC.editImage = currentImage;
+    editImgVC.isHiddenStatusBar = true;
+//    editImgVC.navigationController.navigationBarHidden = true;
+    [self.navigationController pushViewController:editImgVC animated:true];
 }
 
+
 - (void)toPlayBackVC {
-    
+    QMXMPlayBackViewController *playBack = [[QMXMPlayBackViewController alloc] init];
+    playBack.channel = self.selectedChannel;
+    [self.navigationController pushViewController:playBack animated:YES];
 }
 @end

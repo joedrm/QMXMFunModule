@@ -1033,10 +1033,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXPhotoBrowser.framework; path = JXPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46EB2E00000150 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		117887665FB3C7A539BB6F806956A01A /* JXPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JXPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E00000150 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		46EB2E00000160 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		46EB2E00000180 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		46EB2E00000190 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
@@ -1413,7 +1413,7 @@
 		46EB2E00001A30 /* QMDatePickerUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMDatePickerUtil.h; sourceTree = "<group>"; };
 		46EB2E00001A40 /* QMDatePickerUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMDatePickerUtil.m; sourceTree = "<group>"; };
 		46EB2E00001A50 /* QMFunSDKTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMFunSDKTool.h; sourceTree = "<group>"; };
-		46EB2E00001A60 /* QMFunSDKTool.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = QMFunSDKTool.mm; sourceTree = "<group>"; };
+		46EB2E00001A60 /* QMFunSDKTool.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = QMFunSDKTool.mm; sourceTree = "<group>"; };
 		46EB2E00001A70 /* QMHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMHud.h; sourceTree = "<group>"; };
 		46EB2E00001A80 /* QMHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMHud.m; sourceTree = "<group>"; };
 		46EB2E00001A90 /* QMLanchScreenTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMLanchScreenTool.h; sourceTree = "<group>"; };
@@ -1423,15 +1423,15 @@
 		46EB2E00001AD0 /* QMWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMWeakProxy.h; sourceTree = "<group>"; };
 		46EB2E00001AE0 /* QMWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMWeakProxy.m; sourceTree = "<group>"; };
 		46EB2E00001AF0 /* QMXMDeviceTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMXMDeviceTool.h; sourceTree = "<group>"; };
-		46EB2E00001B00 /* QMXMDeviceTool.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = QMXMDeviceTool.mm; sourceTree = "<group>"; };
+		46EB2E00001B00 /* QMXMDeviceTool.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = QMXMDeviceTool.mm; sourceTree = "<group>"; };
 		46EB2E00001B10 /* SLScrollViewKeyboardSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLScrollViewKeyboardSupport.h; sourceTree = "<group>"; };
 		46EB2E00001B20 /* SLScrollViewKeyboardSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLScrollViewKeyboardSupport.m; sourceTree = "<group>"; };
 		46EB2E00001B50 /* QMBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMBaseViewController.h; sourceTree = "<group>"; };
 		46EB2E00001B60 /* QMBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMBaseViewController.m; sourceTree = "<group>"; };
 		46EB2E00001B70 /* QMXMPlayBackViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMXMPlayBackViewController.h; sourceTree = "<group>"; };
-		46EB2E00001B80 /* QMXMPlayBackViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = QMXMPlayBackViewController.mm; sourceTree = "<group>"; };
+		46EB2E00001B80 /* QMXMPlayBackViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = QMXMPlayBackViewController.mm; sourceTree = "<group>"; };
 		46EB2E00001B90 /* QMXMPlayViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMXMPlayViewController.h; sourceTree = "<group>"; };
-		46EB2E00001BA0 /* QMXMPlayViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = QMXMPlayViewController.mm; sourceTree = "<group>"; };
+		46EB2E00001BA0 /* QMXMPlayViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = QMXMPlayViewController.mm; sourceTree = "<group>"; };
 		46EB2E00001BC0 /* CGXPickerUIBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGXPickerUIBaseView.h; sourceTree = "<group>"; };
 		46EB2E00001BD0 /* CGXPickerUIBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CGXPickerUIBaseView.m; sourceTree = "<group>"; };
 		46EB2E00001BE0 /* CGXPickerViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGXPickerViewManager.h; sourceTree = "<group>"; };
@@ -1441,11 +1441,11 @@
 		46EB2E00001C20 /* LPActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LPActionSheet.h; sourceTree = "<group>"; };
 		46EB2E00001C30 /* LPActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPActionSheet.m; sourceTree = "<group>"; };
 		46EB2E00001C40 /* PlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
-		46EB2E00001C50 /* PlayView.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = PlayView.mm; sourceTree = "<group>"; };
+		46EB2E00001C50 /* PlayView.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = PlayView.mm; sourceTree = "<group>"; };
 		46EB2E00001C60 /* QMCommitButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMCommitButton.h; sourceTree = "<group>"; };
 		46EB2E00001C70 /* QMCommitButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMCommitButton.m; sourceTree = "<group>"; };
 		46EB2E00001C80 /* QMPlayBackTimeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMPlayBackTimeCell.h; sourceTree = "<group>"; };
-		46EB2E00001C90 /* QMPlayBackTimeCell.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = QMPlayBackTimeCell.mm; sourceTree = "<group>"; };
+		46EB2E00001C90 /* QMPlayBackTimeCell.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = QMPlayBackTimeCell.mm; sourceTree = "<group>"; };
 		46EB2E00001CA0 /* QMPlayOptionMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMPlayOptionMenuView.h; sourceTree = "<group>"; };
 		46EB2E00001CB0 /* QMPlayOptionMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMPlayOptionMenuView.m; sourceTree = "<group>"; };
 		46EB2E00001CC0 /* QMQuestionInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMQuestionInputView.h; sourceTree = "<group>"; };
@@ -1459,11 +1459,11 @@
 		46EB2E00001D40 /* QMXMSnapshotsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMXMSnapshotsView.h; sourceTree = "<group>"; };
 		46EB2E00001D50 /* QMXMSnapshotsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMXMSnapshotsView.m; sourceTree = "<group>"; };
 		46EB2E00001D90 /* LanguageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LanguageManager.h; sourceTree = "<group>"; };
-		46EB2E00001DA0 /* LanguageManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = LanguageManager.mm; sourceTree = "<group>"; };
+		46EB2E00001DA0 /* LanguageManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = LanguageManager.mm; sourceTree = "<group>"; };
 		46EB2E00001DC0 /* LoginShowControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginShowControl.h; sourceTree = "<group>"; };
 		46EB2E00001DD0 /* LoginShowControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoginShowControl.m; sourceTree = "<group>"; };
 		46EB2E00001DF0 /* MessageUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MessageUI.h; sourceTree = "<group>"; };
-		46EB2E00001E00 /* MessageUI.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = MessageUI.mm; sourceTree = "<group>"; };
+		46EB2E00001E00 /* MessageUI.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = MessageUI.mm; sourceTree = "<group>"; };
 		46EB2E00001E20 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		46EB2E00001E30 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
 		46EB2E00001E40 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
@@ -1494,172 +1494,172 @@
 		46EB2E00002010 /* DevicelistArchiveModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DevicelistArchiveModel.h; sourceTree = "<group>"; };
 		46EB2E00002020 /* DevicelistArchiveModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DevicelistArchiveModel.m; sourceTree = "<group>"; };
 		46EB2E00002050 /* AlarmDetectConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlarmDetectConfig.h; sourceTree = "<group>"; };
-		46EB2E00002060 /* AlarmDetectConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = AlarmDetectConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002060 /* AlarmDetectConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = AlarmDetectConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002080 /* AlarmMessageConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlarmMessageConfig.h; sourceTree = "<group>"; };
-		46EB2E00002090 /* AlarmMessageConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = AlarmMessageConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002090 /* AlarmMessageConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = AlarmMessageConfig.mm; sourceTree = "<group>"; };
 		46EB2E000020A0 /* AlarmMessageInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlarmMessageInfo.h; sourceTree = "<group>"; };
 		46EB2E000020B0 /* AlarmMessageInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlarmMessageInfo.m; sourceTree = "<group>"; };
 		46EB2E000020D0 /* AlarmPIRConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlarmPIRConfig.h; sourceTree = "<group>"; };
-		46EB2E000020E0 /* AlarmPIRConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = AlarmPIRConfig.mm; sourceTree = "<group>"; };
+		46EB2E000020E0 /* AlarmPIRConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = AlarmPIRConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002100 /* AnalyzeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AnalyzeConfig.h; sourceTree = "<group>"; };
-		46EB2E00002110 /* AnalyzeConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = AnalyzeConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002110 /* AnalyzeConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = AnalyzeConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002120 /* AnalyzeDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AnalyzeDataSource.h; sourceTree = "<group>"; };
 		46EB2E00002130 /* AnalyzeDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AnalyzeDataSource.m; sourceTree = "<group>"; };
 		46EB2E00002150 /* AudioInputConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AudioInputConfig.h; sourceTree = "<group>"; };
-		46EB2E00002160 /* AudioInputConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = AudioInputConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002160 /* AudioInputConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioInputConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002170 /* AudioOutputConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AudioOutputConfig.h; sourceTree = "<group>"; };
-		46EB2E00002180 /* AudioOutputConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = AudioOutputConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002180 /* AudioOutputConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioOutputConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002190 /* ConfigModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConfigModel.h; sourceTree = "<group>"; };
-		46EB2E000021A0 /* ConfigModel.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = ConfigModel.mm; sourceTree = "<group>"; };
+		46EB2E000021A0 /* ConfigModel.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = ConfigModel.mm; sourceTree = "<group>"; };
 		46EB2E000021B0 /* CYFunSDKObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CYFunSDKObject.h; sourceTree = "<group>"; };
-		46EB2E000021C0 /* CYFunSDKObject.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CYFunSDKObject.mm; sourceTree = "<group>"; };
+		46EB2E000021C0 /* CYFunSDKObject.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = CYFunSDKObject.mm; sourceTree = "<group>"; };
 		46EB2E000021D0 /* DeviceConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeviceConfig.h; sourceTree = "<group>"; };
-		46EB2E000021E0 /* DeviceConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = DeviceConfig.mm; sourceTree = "<group>"; };
+		46EB2E000021E0 /* DeviceConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = DeviceConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002200 /* BuzzerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BuzzerConfig.h; sourceTree = "<group>"; };
-		46EB2E00002210 /* BuzzerConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = BuzzerConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002210 /* BuzzerConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = BuzzerConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002230 /* CapturePriorityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CapturePriorityManager.h; sourceTree = "<group>"; };
-		46EB2E00002240 /* CapturePriorityManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CapturePriorityManager.mm; sourceTree = "<group>"; };
+		46EB2E00002240 /* CapturePriorityManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = CapturePriorityManager.mm; sourceTree = "<group>"; };
 		46EB2E00002260 /* ChangeWifiConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChangeWifiConfig.h; sourceTree = "<group>"; };
-		46EB2E00002270 /* ChangeWifiConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = ChangeWifiConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002270 /* ChangeWifiConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = ChangeWifiConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002280 /* WifiConfigDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WifiConfigDataSource.h; sourceTree = "<group>"; };
 		46EB2E00002290 /* WifiConfigDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WifiConfigDataSource.m; sourceTree = "<group>"; };
 		46EB2E000022B0 /* CloudAbilityConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudAbilityConfig.h; sourceTree = "<group>"; };
-		46EB2E000022C0 /* CloudAbilityConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CloudAbilityConfig.mm; sourceTree = "<group>"; };
+		46EB2E000022C0 /* CloudAbilityConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = CloudAbilityConfig.mm; sourceTree = "<group>"; };
 		46EB2E000022D0 /* CloudAbilityDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudAbilityDataSource.h; sourceTree = "<group>"; };
 		46EB2E000022E0 /* CloudAbilityDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CloudAbilityDataSource.m; sourceTree = "<group>"; };
 		46EB2E00002300 /* CloudPhotoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudPhotoConfig.h; sourceTree = "<group>"; };
-		46EB2E00002310 /* CloudPhotoConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CloudPhotoConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002310 /* CloudPhotoConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = CloudPhotoConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002320 /* XMAlarmMsgResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMAlarmMsgResource.h; sourceTree = "<group>"; };
 		46EB2E00002330 /* XMAlarmMsgResource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMAlarmMsgResource.m; sourceTree = "<group>"; };
 		46EB2E00002350 /* CloudVideoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CloudVideoConfig.h; sourceTree = "<group>"; };
-		46EB2E00002360 /* CloudVideoConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CloudVideoConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002360 /* CloudVideoConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = CloudVideoConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002370 /* CLouldVideoResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLouldVideoResource.h; sourceTree = "<group>"; };
 		46EB2E00002380 /* CLouldVideoResource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLouldVideoResource.m; sourceTree = "<group>"; };
 		46EB2E000023A0 /* CommonConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CommonConfig.h; sourceTree = "<group>"; };
-		46EB2E000023B0 /* CommonConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CommonConfig.mm; sourceTree = "<group>"; };
+		46EB2E000023B0 /* CommonConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = CommonConfig.mm; sourceTree = "<group>"; };
 		46EB2E000023D0 /* AutoCruiseConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AutoCruiseConfig.h; sourceTree = "<group>"; };
-		46EB2E000023E0 /* AutoCruiseConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = AutoCruiseConfig.mm; sourceTree = "<group>"; };
+		46EB2E000023E0 /* AutoCruiseConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = AutoCruiseConfig.mm; sourceTree = "<group>"; };
 		46EB2E000023F0 /* CruiseConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CruiseConfig.h; sourceTree = "<group>"; };
-		46EB2E00002400 /* CruiseConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CruiseConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002400 /* CruiseConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = CruiseConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002410 /* CruiseDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CruiseDataSource.h; sourceTree = "<group>"; };
 		46EB2E00002420 /* CruiseDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CruiseDataSource.m; sourceTree = "<group>"; };
 		46EB2E00002440 /* DeviceAbilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeviceAbilityManager.h; sourceTree = "<group>"; };
-		46EB2E00002450 /* DeviceAbilityManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = DeviceAbilityManager.mm; sourceTree = "<group>"; };
+		46EB2E00002450 /* DeviceAbilityManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = DeviceAbilityManager.mm; sourceTree = "<group>"; };
 		46EB2E00002480 /* PictureFileConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PictureFileConfig.h; sourceTree = "<group>"; };
-		46EB2E00002490 /* PictureFileConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = PictureFileConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002490 /* PictureFileConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = PictureFileConfig.mm; sourceTree = "<group>"; };
 		46EB2E000024A0 /* PictureFileDownloadConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PictureFileDownloadConfig.h; sourceTree = "<group>"; };
-		46EB2E000024B0 /* PictureFileDownloadConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = PictureFileDownloadConfig.mm; sourceTree = "<group>"; };
+		46EB2E000024B0 /* PictureFileDownloadConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = PictureFileDownloadConfig.mm; sourceTree = "<group>"; };
 		46EB2E000024C0 /* PictureInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PictureInfo.h; sourceTree = "<group>"; };
 		46EB2E000024D0 /* PictureInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PictureInfo.m; sourceTree = "<group>"; };
 		46EB2E000024F0 /* RecordInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RecordInfo.h; sourceTree = "<group>"; };
-		46EB2E00002500 /* RecordInfo.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RecordInfo.mm; sourceTree = "<group>"; };
+		46EB2E00002500 /* RecordInfo.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = RecordInfo.mm; sourceTree = "<group>"; };
 		46EB2E00002510 /* TimeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TimeInfo.h; sourceTree = "<group>"; };
 		46EB2E00002520 /* TimeInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TimeInfo.m; sourceTree = "<group>"; };
 		46EB2E00002530 /* VideoFileConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VideoFileConfig.h; sourceTree = "<group>"; };
-		46EB2E00002540 /* VideoFileConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = VideoFileConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002540 /* VideoFileConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoFileConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002550 /* VideoFileDownloadConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VideoFileDownloadConfig.h; sourceTree = "<group>"; };
-		46EB2E00002560 /* VideoFileDownloadConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = VideoFileDownloadConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002560 /* VideoFileDownloadConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoFileDownloadConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002580 /* DevRingCtrlConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DevRingCtrlConfig.h; sourceTree = "<group>"; };
-		46EB2E00002590 /* DevRingCtrlConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = DevRingCtrlConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002590 /* DevRingCtrlConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = DevRingCtrlConfig.mm; sourceTree = "<group>"; };
 		46EB2E000025C0 /* DoorNotificationConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DoorNotificationConfig.h; sourceTree = "<group>"; };
-		46EB2E000025D0 /* DoorNotificationConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = DoorNotificationConfig.mm; sourceTree = "<group>"; };
+		46EB2E000025D0 /* DoorNotificationConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = DoorNotificationConfig.mm; sourceTree = "<group>"; };
 		46EB2E000025F0 /* DoorTempPasswordConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DoorTempPasswordConfig.h; sourceTree = "<group>"; };
-		46EB2E00002600 /* DoorTempPasswordConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = DoorTempPasswordConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002600 /* DoorTempPasswordConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = DoorTempPasswordConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002620 /* DoorUnlockConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DoorUnlockConfig.h; sourceTree = "<group>"; };
-		46EB2E00002630 /* DoorUnlockConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = DoorUnlockConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002630 /* DoorUnlockConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = DoorUnlockConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002650 /* DoorUserNameConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DoorUserNameConfig.h; sourceTree = "<group>"; };
-		46EB2E00002660 /* DoorUserNameConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = DoorUserNameConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002660 /* DoorUserNameConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = DoorUserNameConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002680 /* NoDisturbingConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NoDisturbingConfig.h; sourceTree = "<group>"; };
-		46EB2E00002690 /* NoDisturbingConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = NoDisturbingConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002690 /* NoDisturbingConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = NoDisturbingConfig.mm; sourceTree = "<group>"; };
 		46EB2E000026B0 /* OPProCmdConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OPProCmdConfig.h; sourceTree = "<group>"; };
-		46EB2E000026C0 /* OPProCmdConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = OPProCmdConfig.mm; sourceTree = "<group>"; };
+		46EB2E000026C0 /* OPProCmdConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = OPProCmdConfig.mm; sourceTree = "<group>"; };
 		46EB2E000026E0 /* ElectricityConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ElectricityConfig.h; sourceTree = "<group>"; };
-		46EB2E000026F0 /* ElectricityConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = ElectricityConfig.mm; sourceTree = "<group>"; };
+		46EB2E000026F0 /* ElectricityConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = ElectricityConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002710 /* EncodeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EncodeConfig.h; sourceTree = "<group>"; };
-		46EB2E00002720 /* EncodeConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = EncodeConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002720 /* EncodeConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = EncodeConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002730 /* EncodeDataSourse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EncodeDataSourse.h; sourceTree = "<group>"; };
 		46EB2E00002740 /* EncodeDataSourse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EncodeDataSourse.m; sourceTree = "<group>"; };
 		46EB2E00002760 /* ExtralStateCtrlConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ExtralStateCtrlConfig.h; sourceTree = "<group>"; };
-		46EB2E00002770 /* ExtralStateCtrlConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = ExtralStateCtrlConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002770 /* ExtralStateCtrlConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = ExtralStateCtrlConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002790 /* FisheyeBulbConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FisheyeBulbConfig.h; sourceTree = "<group>"; };
-		46EB2E000027A0 /* FisheyeBulbConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = FisheyeBulbConfig.mm; sourceTree = "<group>"; };
+		46EB2E000027A0 /* FisheyeBulbConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = FisheyeBulbConfig.mm; sourceTree = "<group>"; };
 		46EB2E000027C0 /* HumanDetectionConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HumanDetectionConfig.h; sourceTree = "<group>"; };
-		46EB2E000027D0 /* HumanDetectionConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = HumanDetectionConfig.mm; sourceTree = "<group>"; };
+		46EB2E000027D0 /* HumanDetectionConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = HumanDetectionConfig.mm; sourceTree = "<group>"; };
 		46EB2E000027E0 /* IPCHumanDetectionConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IPCHumanDetectionConfig.h; sourceTree = "<group>"; };
-		46EB2E000027F0 /* IPCHumanDetectionConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = IPCHumanDetectionConfig.mm; sourceTree = "<group>"; };
+		46EB2E000027F0 /* IPCHumanDetectionConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = IPCHumanDetectionConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002810 /* LightBulbConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightBulbConfig.h; sourceTree = "<group>"; };
-		46EB2E00002820 /* LightBulbConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = LightBulbConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002820 /* LightBulbConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = LightBulbConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002840 /* ForceShutDownManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ForceShutDownManager.h; sourceTree = "<group>"; };
-		46EB2E00002850 /* ForceShutDownManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = ForceShutDownManager.mm; sourceTree = "<group>"; };
+		46EB2E00002850 /* ForceShutDownManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = ForceShutDownManager.mm; sourceTree = "<group>"; };
 		46EB2E00002860 /* NotifyLightManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NotifyLightManager.h; sourceTree = "<group>"; };
-		46EB2E00002870 /* NotifyLightManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = NotifyLightManager.mm; sourceTree = "<group>"; };
+		46EB2E00002870 /* NotifyLightManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = NotifyLightManager.mm; sourceTree = "<group>"; };
 		46EB2E00002890 /* NetWorkCfgManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NetWorkCfgManager.h; sourceTree = "<group>"; };
-		46EB2E000028A0 /* NetWorkCfgManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = NetWorkCfgManager.mm; sourceTree = "<group>"; };
+		46EB2E000028A0 /* NetWorkCfgManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = NetWorkCfgManager.mm; sourceTree = "<group>"; };
 		46EB2E000028C0 /* PasswordConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PasswordConfig.h; sourceTree = "<group>"; };
-		46EB2E000028D0 /* PasswordConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = PasswordConfig.mm; sourceTree = "<group>"; };
+		46EB2E000028D0 /* PasswordConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = PasswordConfig.mm; sourceTree = "<group>"; };
 		46EB2E000028F0 /* RecordConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RecordConfig.h; sourceTree = "<group>"; };
-		46EB2E00002900 /* RecordConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RecordConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002900 /* RecordConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = RecordConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002910 /* RecordDataSourse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RecordDataSourse.h; sourceTree = "<group>"; };
 		46EB2E00002920 /* RecordDataSourse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RecordDataSourse.m; sourceTree = "<group>"; };
 		46EB2E00002940 /* SensorConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SensorConfig.h; sourceTree = "<group>"; };
-		46EB2E00002950 /* SensorConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = SensorConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002950 /* SensorConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = SensorConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002970 /* ShutDownTimeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShutDownTimeConfig.h; sourceTree = "<group>"; };
-		46EB2E00002980 /* ShutDownTimeConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = ShutDownTimeConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002980 /* ShutDownTimeConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = ShutDownTimeConfig.mm; sourceTree = "<group>"; };
 		46EB2E000029A0 /* DataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		46EB2E000029B0 /* DataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 		46EB2E000029C0 /* Storage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
 		46EB2E000029D0 /* Storage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Storage.m; sourceTree = "<group>"; };
 		46EB2E000029E0 /* StorageConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StorageConfig.h; sourceTree = "<group>"; };
-		46EB2E000029F0 /* StorageConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = StorageConfig.mm; sourceTree = "<group>"; };
+		46EB2E000029F0 /* StorageConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = StorageConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002A10 /* StorageSnapshotCfgManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = StorageSnapshotCfgManager.h; sourceTree = "<group>"; };
-		46EB2E00002A20 /* StorageSnapshotCfgManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = StorageSnapshotCfgManager.mm; sourceTree = "<group>"; };
+		46EB2E00002A20 /* StorageSnapshotCfgManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = StorageSnapshotCfgManager.mm; sourceTree = "<group>"; };
 		46EB2E00002A40 /* SystemFunctionConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SystemFunctionConfig.h; sourceTree = "<group>"; };
-		46EB2E00002A50 /* SystemFunctionConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = SystemFunctionConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002A50 /* SystemFunctionConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = SystemFunctionConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002A70 /* SystemInfoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SystemInfoConfig.h; sourceTree = "<group>"; };
-		46EB2E00002A80 /* SystemInfoConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = SystemInfoConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002A80 /* SystemInfoConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = SystemInfoConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002AA0 /* SystemResetConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SystemResetConfig.h; sourceTree = "<group>"; };
-		46EB2E00002AB0 /* SystemResetConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = SystemResetConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002AB0 /* SystemResetConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = SystemResetConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002AD0 /* TimeSynConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TimeSynConfig.h; sourceTree = "<group>"; };
-		46EB2E00002AE0 /* TimeSynConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = TimeSynConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002AE0 /* TimeSynConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = TimeSynConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002AF0 /* TimeSynDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TimeSynDataSource.h; sourceTree = "<group>"; };
 		46EB2E00002B00 /* TimeSynDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TimeSynDataSource.m; sourceTree = "<group>"; };
 		46EB2E00002B20 /* UpgradeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UpgradeConfig.h; sourceTree = "<group>"; };
-		46EB2E00002B30 /* UpgradeConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = UpgradeConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002B30 /* UpgradeConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = UpgradeConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002B40 /* UpgradeDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UpgradeDataSource.h; sourceTree = "<group>"; };
 		46EB2E00002B50 /* UpgradeDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UpgradeDataSource.m; sourceTree = "<group>"; };
 		46EB2E00002B70 /* VideoRotainConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VideoRotainConfig.h; sourceTree = "<group>"; };
-		46EB2E00002B80 /* VideoRotainConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = VideoRotainConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002B80 /* VideoRotainConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoRotainConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002B90 /* VodeoRotainDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VodeoRotainDataSource.h; sourceTree = "<group>"; };
 		46EB2E00002BA0 /* VodeoRotainDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VodeoRotainDataSource.m; sourceTree = "<group>"; };
 		46EB2E00002BC0 /* WaterMarkConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WaterMarkConfig.h; sourceTree = "<group>"; };
-		46EB2E00002BD0 /* WaterMarkConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = WaterMarkConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002BD0 /* WaterMarkConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = WaterMarkConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002BF0 /* GetStorageHeadDataConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GetStorageHeadDataConfig.h; sourceTree = "<group>"; };
-		46EB2E00002C00 /* GetStorageHeadDataConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = GetStorageHeadDataConfig.mm; sourceTree = "<group>"; };
+		46EB2E00002C00 /* GetStorageHeadDataConfig.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = GetStorageHeadDataConfig.mm; sourceTree = "<group>"; };
 		46EB2E00002C30 /* AlarmManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlarmManager.h; sourceTree = "<group>"; };
-		46EB2E00002C40 /* AlarmManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = AlarmManager.mm; sourceTree = "<group>"; };
+		46EB2E00002C40 /* AlarmManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = AlarmManager.mm; sourceTree = "<group>"; };
 		46EB2E00002C60 /* DeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeviceManager.h; sourceTree = "<group>"; };
-		46EB2E00002C70 /* DeviceManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = DeviceManager.mm; sourceTree = "<group>"; };
+		46EB2E00002C70 /* DeviceManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = DeviceManager.mm; sourceTree = "<group>"; };
 		46EB2E00002C90 /* UserAccountModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserAccountModel.h; sourceTree = "<group>"; };
-		46EB2E00002CA0 /* UserAccountModel.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = UserAccountModel.mm; sourceTree = "<group>"; };
+		46EB2E00002CA0 /* UserAccountModel.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = UserAccountModel.mm; sourceTree = "<group>"; };
 		46EB2E00002CC0 /* MediaPlaybackControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MediaPlaybackControl.h; sourceTree = "<group>"; };
-		46EB2E00002CD0 /* MediaPlaybackControl.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = MediaPlaybackControl.mm; sourceTree = "<group>"; };
+		46EB2E00002CD0 /* MediaPlaybackControl.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = MediaPlaybackControl.mm; sourceTree = "<group>"; };
 		46EB2E00002CE0 /* MediaplayerControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MediaplayerControl.h; sourceTree = "<group>"; };
-		46EB2E00002CF0 /* MediaplayerControl.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = MediaplayerControl.mm; sourceTree = "<group>"; };
+		46EB2E00002CF0 /* MediaplayerControl.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = MediaplayerControl.mm; sourceTree = "<group>"; };
 		46EB2E00002D10 /* Recode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Recode.h; sourceTree = "<group>"; };
-		46EB2E00002D20 /* Recode.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = Recode.mm; sourceTree = "<group>"; };
+		46EB2E00002D20 /* Recode.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = Recode.mm; sourceTree = "<group>"; };
 		46EB2E00002D30 /* TalkBackControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TalkBackControl.h; sourceTree = "<group>"; };
-		46EB2E00002D40 /* TalkBackControl.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = TalkBackControl.mm; sourceTree = "<group>"; };
+		46EB2E00002D40 /* TalkBackControl.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = TalkBackControl.mm; sourceTree = "<group>"; };
 		46EB2E00002D50 /* VideoContentDefination.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VideoContentDefination.h; sourceTree = "<group>"; };
 		46EB2E00002D80 /* DoorBellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DoorBellModel.h; sourceTree = "<group>"; };
-		46EB2E00002D90 /* DoorBellModel.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = DoorBellModel.mm; sourceTree = "<group>"; };
+		46EB2E00002D90 /* DoorBellModel.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = DoorBellModel.mm; sourceTree = "<group>"; };
 		46EB2E00002DC0 /* BaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		46EB2E00002DD0 /* BaseViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = BaseViewController.mm; sourceTree = "<group>"; };
+		46EB2E00002DD0 /* BaseViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseViewController.mm; sourceTree = "<group>"; };
 		46EB2E00002DE0 /* ConfigControllerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ConfigControllerBase.h; sourceTree = "<group>"; };
-		46EB2E00002DF0 /* ConfigControllerBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = ConfigControllerBase.mm; sourceTree = "<group>"; };
+		46EB2E00002DF0 /* ConfigControllerBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = ConfigControllerBase.mm; sourceTree = "<group>"; };
 		46EB2E00002E00 /* FunMsgListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FunMsgListener.h; sourceTree = "<group>"; };
-		46EB2E00002E10 /* FunMsgListener.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = FunMsgListener.mm; sourceTree = "<group>"; };
+		46EB2E00002E10 /* FunMsgListener.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = FunMsgListener.mm; sourceTree = "<group>"; };
 		46EB2E00002E20 /* SDKInitializeModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDKInitializeModel.h; sourceTree = "<group>"; };
-		46EB2E00002E30 /* SDKInitializeModel.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = SDKInitializeModel.mm; sourceTree = "<group>"; };
+		46EB2E00002E30 /* SDKInitializeModel.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = SDKInitializeModel.mm; sourceTree = "<group>"; };
 		46EB2E00002E60 /* Detect_BlindDetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Detect_BlindDetect.h; sourceTree = "<group>"; };
 		46EB2E00002E70 /* Detect_LossDetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Detect_LossDetect.h; sourceTree = "<group>"; };
 		46EB2E00002E80 /* Detect_MotionDetect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Detect_MotionDetect.h; sourceTree = "<group>"; };
@@ -1819,7 +1819,7 @@
 		46EB2E00003A40 /* XTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XTypes.h; sourceTree = "<group>"; };
 		46EB2E00003A70 /* NetInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NetInterface.h; sourceTree = "<group>"; };
 		46EB2E00003A80 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		46EB2E00003A90 /* main.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = main.mm; sourceTree = "<group>"; };
+		46EB2E00003A90 /* main.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		46EB2E00003AA0 /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+TZImagePicker.h"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
 		46EB2E00003AB0 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+TZImagePicker.m"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
 		46EB2E00003AC0 /* TZAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetCell.h; path = TZImagePickerController/TZImagePickerController/TZAssetCell.h; sourceTree = "<group>"; };
@@ -1861,10 +1861,10 @@
 		46EB2E00003D60 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TZImagePickerController.bundle; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle; sourceTree = "<group>"; };
 		46EB2E00003DB0 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		46EB2E00003DD0 /* SectionsImages.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = SectionsImages.bundle; sourceTree = "<group>"; };
-		46EB2E00003DF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		46EB2E00003DF0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		46EB2E00003E00 /* MobileVideo-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MobileVideo-Prefix.pch"; path = "QMXMFunModule/Classes/Base/MobileVideo-Prefix.pch"; sourceTree = "<group>"; };
-		46EB2E00003E10 /* QMXMFunModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QMXMFunModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46EB2E00003E20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		46EB2E00003E10 /* QMXMFunModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QMXMFunModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46EB2E00003E20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		46EB2E00003ED0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		46EB2E00004110 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		46EB2E00004120 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
@@ -1969,15 +1969,15 @@
 		46EB2E00008500 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EB2E00008540 /* LFMediaEditingController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LFMediaEditingController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EB2E00008580 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55E0AFD333353D71ACC2207149E879D6 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast.framework; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60549E78A9754F85BDC7FE7E52E06A1B /* QMXMFunModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QMXMFunModule.bundle; path = "QMXMFunModule-QMXMFunModule.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C4F341419C0E3EB0F36A5DDD746BF45 /* LFFilterSuite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LFFilterSuite.framework; path = LFFilterSuite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E1D5C0FCA0D872C3F21E87F25420681 /* TZImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TZImagePickerController.framework; path = TZImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B16BAC9B85BDE55BDC3EDDC37058742A /* Pods_QMXMFunModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QMXMFunModule_Example.framework; path = "Pods-QMXMFunModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2397ECD0E92DA419613D4E8BD7FA6CD /* QMXMFunModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMXMFunModule.framework; path = QMXMFunModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2A05E9B3BFAFADB03094F9FEB7B3878 /* LFAssetExportSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LFAssetExportSession.framework; path = LFAssetExportSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F76EABDF926029903B174779D4B71346 /* LFMediaEditingController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LFMediaEditingController.framework; path = LFMediaEditingController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E0AFD333353D71ACC2207149E879D6 /* Toast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60549E78A9754F85BDC7FE7E52E06A1B /* QMXMFunModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QMXMFunModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4F341419C0E3EB0F36A5DDD746BF45 /* LFFilterSuite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LFFilterSuite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1D5C0FCA0D872C3F21E87F25420681 /* TZImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TZImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16BAC9B85BDE55BDC3EDDC37058742A /* Pods_QMXMFunModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMXMFunModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2397ECD0E92DA419613D4E8BD7FA6CD /* QMXMFunModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QMXMFunModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A05E9B3BFAFADB03094F9FEB7B3878 /* LFAssetExportSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LFAssetExportSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76EABDF926029903B174779D4B71346 /* LFMediaEditingController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LFMediaEditingController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2194,7 +2194,6 @@
 				46EB2E00004100 /* Support Files */,
 				46EB2E00000280 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -2218,7 +2217,6 @@
 				46EB2E000004A0 /* JXPhotoBrowserZoomSupportedCell.swift */,
 				46EB2E00004330 /* Support Files */,
 			);
-			name = JXPhotoBrowser;
 			path = JXPhotoBrowser;
 			sourceTree = "<group>";
 		};
@@ -2229,7 +2227,6 @@
 				46EB2E000004C0 /* LFAssetExportSession.m */,
 				46EB2E00004490 /* Support Files */,
 			);
-			name = LFAssetExportSession;
 			path = LFAssetExportSession;
 			sourceTree = "<group>";
 		};
@@ -2268,7 +2265,6 @@
 				46EB2E000006A0 /* LFWeakSelectorTarget.m */,
 				46EB2E000047B0 /* Support Files */,
 			);
-			name = LFFilterSuite;
 			path = LFFilterSuite;
 			sourceTree = "<group>";
 		};
@@ -2291,7 +2287,6 @@
 				46EB2E00001420 /* SPDropMenu */,
 				46EB2E00005680 /* Support Files */,
 			);
-			name = LFMediaEditingController;
 			path = LFMediaEditingController;
 			sourceTree = "<group>";
 		};
@@ -2321,7 +2316,6 @@
 				46EB2E00001610 /* NSString+MJExtension.m */,
 				46EB2E00005910 /* Support Files */,
 			);
-			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -2355,7 +2349,6 @@
 				46EB2E000017A0 /* ViewController+MASAdditions.m */,
 				46EB2E00005BE0 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -2410,7 +2403,6 @@
 				46EB2E00003D50 /* Resources */,
 				46EB2E00007CB0 /* Support Files */,
 			);
-			name = TZImagePickerController;
 			path = TZImagePickerController;
 			sourceTree = "<group>";
 		};
@@ -2422,7 +2414,6 @@
 				46EB2E00003C90 /* UIView+Toast.m */,
 				46EB2E00007E20 /* Support Files */,
 			);
-			name = Toast;
 			path = Toast;
 			sourceTree = "<group>";
 		};
@@ -2836,7 +2827,6 @@
 				46EB2E000018D0 /* UIView+Helpers.h */,
 				46EB2E000018E0 /* UIView+Helpers.m */,
 			);
-			name = Category;
 			path = Category;
 			sourceTree = "<group>";
 		};
@@ -2846,7 +2836,6 @@
 				46EB2E00001900 /* QMPixHeader.h */,
 				46EB2E00001910 /* Singleton.h */,
 			);
-			name = Define;
 			path = Define;
 			sourceTree = "<group>";
 		};
@@ -2858,7 +2847,6 @@
 				46EB2E00001950 /* QMUserModel.h */,
 				46EB2E00001960 /* QMUserModel.m */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -2870,7 +2858,6 @@
 				46EB2E000019A0 /* QMPhotoPickerService.h */,
 				46EB2E000019B0 /* QMPhotoPickerService.m */,
 			);
-			name = Service;
 			path = Service;
 			sourceTree = "<group>";
 		};
@@ -2900,7 +2887,6 @@
 				46EB2E00001B10 /* SLScrollViewKeyboardSupport.h */,
 				46EB2E00001B20 /* SLScrollViewKeyboardSupport.m */,
 			);
-			name = Tool;
 			path = Tool;
 			sourceTree = "<group>";
 		};
@@ -2910,7 +2896,6 @@
 				46EB2E00001B40 /* Controller */,
 				46EB2E00001BB0 /* View */,
 			);
-			name = UI;
 			path = UI;
 			sourceTree = "<group>";
 		};
@@ -2924,7 +2909,6 @@
 				46EB2E00001B90 /* QMXMPlayViewController.h */,
 				46EB2E00001BA0 /* QMXMPlayViewController.mm */,
 			);
-			name = Controller;
 			path = Controller;
 			sourceTree = "<group>";
 		};
@@ -2958,7 +2942,6 @@
 				46EB2E00001D40 /* QMXMSnapshotsView.h */,
 				46EB2E00001D50 /* QMXMSnapshotsView.m */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -2987,7 +2970,6 @@
 				46EB2E00001E10 /* NSStringControl */,
 				46EB2E00001EF0 /* NSUserDefault */,
 			);
-			name = Common;
 			path = Common;
 			sourceTree = "<group>";
 		};
@@ -2997,7 +2979,6 @@
 				46EB2E00001D90 /* LanguageManager.h */,
 				46EB2E00001DA0 /* LanguageManager.mm */,
 			);
-			name = LanguageControl;
 			path = LanguageControl;
 			sourceTree = "<group>";
 		};
@@ -3007,7 +2988,6 @@
 				46EB2E00001DC0 /* LoginShowControl.h */,
 				46EB2E00001DD0 /* LoginShowControl.m */,
 			);
-			name = LoginControl;
 			path = LoginControl;
 			sourceTree = "<group>";
 		};
@@ -3017,7 +2997,6 @@
 				46EB2E00001DF0 /* MessageUI.h */,
 				46EB2E00001E00 /* MessageUI.mm */,
 			);
-			name = MessgaeStringUI;
 			path = MessgaeStringUI;
 			sourceTree = "<group>";
 		};
@@ -3038,7 +3017,6 @@
 				46EB2E00001ED0 /* NSString+Path.h */,
 				46EB2E00001EE0 /* NSString+Path.m */,
 			);
-			name = NSStringControl;
 			path = NSStringControl;
 			sourceTree = "<group>";
 		};
@@ -3048,7 +3026,6 @@
 				46EB2E00001F00 /* NSUserDefaultData.h */,
 				46EB2E00001F10 /* NSUserDefaultData.m */,
 			);
-			name = NSUserDefault;
 			path = NSUserDefault;
 			sourceTree = "<group>";
 		};
@@ -3062,7 +3039,6 @@
 				46EB2E00001F30 /* DeviceAndChannel */,
 				46EB2E00001FC0 /* DeviceInfo */,
 			);
-			name = Device;
 			path = Device;
 			sourceTree = "<group>";
 		};
@@ -3076,7 +3052,6 @@
 				46EB2E00001F80 /* ObjectCoder.h */,
 				46EB2E00001F90 /* ObjectCoder.m */,
 			);
-			name = DeviceAndChannel;
 			path = DeviceAndChannel;
 			sourceTree = "<group>";
 		};
@@ -3088,7 +3063,6 @@
 				46EB2E00001FF0 /* ObSysteminfo.h */,
 				46EB2E00002000 /* ObSysteminfo.m */,
 			);
-			name = DeviceInfo;
 			path = DeviceInfo;
 			sourceTree = "<group>";
 		};
@@ -3133,7 +3107,6 @@
 				46EB2E00002BB0 /* WaterMarkConfig */,
 				46EB2E00002BE0 /* 设备存储调试 */,
 			);
-			name = DeviceConfigManager;
 			path = DeviceConfigManager;
 			sourceTree = "<group>";
 		};
@@ -3143,7 +3116,6 @@
 				46EB2E00002050 /* AlarmDetectConfig.h */,
 				46EB2E00002060 /* AlarmDetectConfig.mm */,
 			);
-			name = AlarmDetectConfig;
 			path = AlarmDetectConfig;
 			sourceTree = "<group>";
 		};
@@ -3155,7 +3127,6 @@
 				46EB2E000020A0 /* AlarmMessageInfo.h */,
 				46EB2E000020B0 /* AlarmMessageInfo.m */,
 			);
-			name = AlarmMessageConfig;
 			path = AlarmMessageConfig;
 			sourceTree = "<group>";
 		};
@@ -3165,7 +3136,6 @@
 				46EB2E000020D0 /* AlarmPIRConfig.h */,
 				46EB2E000020E0 /* AlarmPIRConfig.mm */,
 			);
-			name = AlarmPIRConfig;
 			path = AlarmPIRConfig;
 			sourceTree = "<group>";
 		};
@@ -3177,7 +3147,6 @@
 				46EB2E00002120 /* AnalyzeDataSource.h */,
 				46EB2E00002130 /* AnalyzeDataSource.m */,
 			);
-			name = AnalyzeConfig;
 			path = AnalyzeConfig;
 			sourceTree = "<group>";
 		};
@@ -3195,7 +3164,6 @@
 				46EB2E000021D0 /* DeviceConfig.h */,
 				46EB2E000021E0 /* DeviceConfig.mm */,
 			);
-			name = AudioConfig;
 			path = AudioConfig;
 			sourceTree = "<group>";
 		};
@@ -3205,7 +3173,6 @@
 				46EB2E00002200 /* BuzzerConfig.h */,
 				46EB2E00002210 /* BuzzerConfig.mm */,
 			);
-			name = BuzzerConfig;
 			path = BuzzerConfig;
 			sourceTree = "<group>";
 		};
@@ -3215,7 +3182,6 @@
 				46EB2E00002230 /* CapturePriorityManager.h */,
 				46EB2E00002240 /* CapturePriorityManager.mm */,
 			);
-			name = CapturePriorityManager;
 			path = CapturePriorityManager;
 			sourceTree = "<group>";
 		};
@@ -3227,7 +3193,6 @@
 				46EB2E00002280 /* WifiConfigDataSource.h */,
 				46EB2E00002290 /* WifiConfigDataSource.m */,
 			);
-			name = ChangeWifiConfig;
 			path = ChangeWifiConfig;
 			sourceTree = "<group>";
 		};
@@ -3241,7 +3206,6 @@
 				46EB2E000022F0 /* CloudPhotoConfg */,
 				46EB2E00002340 /* CloudVideoConfig */,
 			);
-			name = CloudAbilityConfig;
 			path = CloudAbilityConfig;
 			sourceTree = "<group>";
 		};
@@ -3253,7 +3217,6 @@
 				46EB2E00002320 /* XMAlarmMsgResource.h */,
 				46EB2E00002330 /* XMAlarmMsgResource.m */,
 			);
-			name = CloudPhotoConfg;
 			path = CloudPhotoConfg;
 			sourceTree = "<group>";
 		};
@@ -3265,7 +3228,6 @@
 				46EB2E00002370 /* CLouldVideoResource.h */,
 				46EB2E00002380 /* CLouldVideoResource.m */,
 			);
-			name = CloudVideoConfig;
 			path = CloudVideoConfig;
 			sourceTree = "<group>";
 		};
@@ -3275,7 +3237,6 @@
 				46EB2E000023A0 /* CommonConfig.h */,
 				46EB2E000023B0 /* CommonConfig.mm */,
 			);
-			name = CommonConfig;
 			path = CommonConfig;
 			sourceTree = "<group>";
 		};
@@ -3289,7 +3250,6 @@
 				46EB2E00002410 /* CruiseDataSource.h */,
 				46EB2E00002420 /* CruiseDataSource.m */,
 			);
-			name = CruiseConfig;
 			path = CruiseConfig;
 			sourceTree = "<group>";
 		};
@@ -3299,7 +3259,6 @@
 				46EB2E00002440 /* DeviceAbilityManager.h */,
 				46EB2E00002450 /* DeviceAbilityManager.mm */,
 			);
-			name = DeviceAbilityManager;
 			path = DeviceAbilityManager;
 			sourceTree = "<group>";
 		};
@@ -3309,7 +3268,6 @@
 				46EB2E00002470 /* PictureFileConfig */,
 				46EB2E000024E0 /* VideoFileConfig */,
 			);
-			name = DeviceFile;
 			path = DeviceFile;
 			sourceTree = "<group>";
 		};
@@ -3323,7 +3281,6 @@
 				46EB2E000024C0 /* PictureInfo.h */,
 				46EB2E000024D0 /* PictureInfo.m */,
 			);
-			name = PictureFileConfig;
 			path = PictureFileConfig;
 			sourceTree = "<group>";
 		};
@@ -3339,7 +3296,6 @@
 				46EB2E00002550 /* VideoFileDownloadConfig.h */,
 				46EB2E00002560 /* VideoFileDownloadConfig.mm */,
 			);
-			name = VideoFileConfig;
 			path = VideoFileConfig;
 			sourceTree = "<group>";
 		};
@@ -3349,7 +3305,6 @@
 				46EB2E00002580 /* DevRingCtrlConfig.h */,
 				46EB2E00002590 /* DevRingCtrlConfig.mm */,
 			);
-			name = DevRingCtrlConfig;
 			path = DevRingCtrlConfig;
 			sourceTree = "<group>";
 		};
@@ -3363,7 +3318,6 @@
 				46EB2E00002670 /* NoDisturbingConfig */,
 				46EB2E000026A0 /* OPProCmdConfig */,
 			);
-			name = DoorConfig;
 			path = DoorConfig;
 			sourceTree = "<group>";
 		};
@@ -3373,7 +3327,6 @@
 				46EB2E000025C0 /* DoorNotificationConfig.h */,
 				46EB2E000025D0 /* DoorNotificationConfig.mm */,
 			);
-			name = DoorNotificationConfig;
 			path = DoorNotificationConfig;
 			sourceTree = "<group>";
 		};
@@ -3383,7 +3336,6 @@
 				46EB2E000025F0 /* DoorTempPasswordConfig.h */,
 				46EB2E00002600 /* DoorTempPasswordConfig.mm */,
 			);
-			name = DoorTempPasswordConfig;
 			path = DoorTempPasswordConfig;
 			sourceTree = "<group>";
 		};
@@ -3393,7 +3345,6 @@
 				46EB2E00002620 /* DoorUnlockConfig.h */,
 				46EB2E00002630 /* DoorUnlockConfig.mm */,
 			);
-			name = DoorUnlockConfig;
 			path = DoorUnlockConfig;
 			sourceTree = "<group>";
 		};
@@ -3403,7 +3354,6 @@
 				46EB2E00002650 /* DoorUserNameConfig.h */,
 				46EB2E00002660 /* DoorUserNameConfig.mm */,
 			);
-			name = DoorUserNameConfig;
 			path = DoorUserNameConfig;
 			sourceTree = "<group>";
 		};
@@ -3413,7 +3363,6 @@
 				46EB2E00002680 /* NoDisturbingConfig.h */,
 				46EB2E00002690 /* NoDisturbingConfig.mm */,
 			);
-			name = NoDisturbingConfig;
 			path = NoDisturbingConfig;
 			sourceTree = "<group>";
 		};
@@ -3423,7 +3372,6 @@
 				46EB2E000026B0 /* OPProCmdConfig.h */,
 				46EB2E000026C0 /* OPProCmdConfig.mm */,
 			);
-			name = OPProCmdConfig;
 			path = OPProCmdConfig;
 			sourceTree = "<group>";
 		};
@@ -3433,7 +3381,6 @@
 				46EB2E000026E0 /* ElectricityConfig.h */,
 				46EB2E000026F0 /* ElectricityConfig.mm */,
 			);
-			name = ElectricityConfig;
 			path = ElectricityConfig;
 			sourceTree = "<group>";
 		};
@@ -3445,7 +3392,6 @@
 				46EB2E00002730 /* EncodeDataSourse.h */,
 				46EB2E00002740 /* EncodeDataSourse.m */,
 			);
-			name = EncodeConfig;
 			path = EncodeConfig;
 			sourceTree = "<group>";
 		};
@@ -3455,7 +3401,6 @@
 				46EB2E00002760 /* ExtralStateCtrlConfig.h */,
 				46EB2E00002770 /* ExtralStateCtrlConfig.mm */,
 			);
-			name = ExtraStateCtrlConfig;
 			path = ExtraStateCtrlConfig;
 			sourceTree = "<group>";
 		};
@@ -3465,7 +3410,6 @@
 				46EB2E00002790 /* FisheyeBulbConfig.h */,
 				46EB2E000027A0 /* FisheyeBulbConfig.mm */,
 			);
-			name = FisheyeBulbConfig;
 			path = FisheyeBulbConfig;
 			sourceTree = "<group>";
 		};
@@ -3477,7 +3421,6 @@
 				46EB2E000027E0 /* IPCHumanDetectionConfig.h */,
 				46EB2E000027F0 /* IPCHumanDetectionConfig.mm */,
 			);
-			name = HumanDetectionConfig;
 			path = HumanDetectionConfig;
 			sourceTree = "<group>";
 		};
@@ -3487,7 +3430,6 @@
 				46EB2E00002810 /* LightBulbConfig.h */,
 				46EB2E00002820 /* LightBulbConfig.mm */,
 			);
-			name = LightBulbConfig;
 			path = LightBulbConfig;
 			sourceTree = "<group>";
 		};
@@ -3499,7 +3441,6 @@
 				46EB2E00002860 /* NotifyLightManager.h */,
 				46EB2E00002870 /* NotifyLightManager.mm */,
 			);
-			name = LowPowerCfgManager;
 			path = LowPowerCfgManager;
 			sourceTree = "<group>";
 		};
@@ -3509,7 +3450,6 @@
 				46EB2E00002890 /* NetWorkCfgManager.h */,
 				46EB2E000028A0 /* NetWorkCfgManager.mm */,
 			);
-			name = NetWorkCfgManager;
 			path = NetWorkCfgManager;
 			sourceTree = "<group>";
 		};
@@ -3519,7 +3459,6 @@
 				46EB2E000028C0 /* PasswordConfig.h */,
 				46EB2E000028D0 /* PasswordConfig.mm */,
 			);
-			name = PasswordConfig;
 			path = PasswordConfig;
 			sourceTree = "<group>";
 		};
@@ -3531,7 +3470,6 @@
 				46EB2E00002910 /* RecordDataSourse.h */,
 				46EB2E00002920 /* RecordDataSourse.m */,
 			);
-			name = RecordConfig;
 			path = RecordConfig;
 			sourceTree = "<group>";
 		};
@@ -3541,7 +3479,6 @@
 				46EB2E00002940 /* SensorConfig.h */,
 				46EB2E00002950 /* SensorConfig.mm */,
 			);
-			name = SensorConfig;
 			path = SensorConfig;
 			sourceTree = "<group>";
 		};
@@ -3551,7 +3488,6 @@
 				46EB2E00002970 /* ShutDownTimeConfig.h */,
 				46EB2E00002980 /* ShutDownTimeConfig.mm */,
 			);
-			name = ShutDowmTimeConfig;
 			path = ShutDowmTimeConfig;
 			sourceTree = "<group>";
 		};
@@ -3565,7 +3501,6 @@
 				46EB2E000029E0 /* StorageConfig.h */,
 				46EB2E000029F0 /* StorageConfig.mm */,
 			);
-			name = StorageConfig;
 			path = StorageConfig;
 			sourceTree = "<group>";
 		};
@@ -3575,7 +3510,6 @@
 				46EB2E00002A10 /* StorageSnapshotCfgManager.h */,
 				46EB2E00002A20 /* StorageSnapshotCfgManager.mm */,
 			);
-			name = StorageSnapshotCfgManager;
 			path = StorageSnapshotCfgManager;
 			sourceTree = "<group>";
 		};
@@ -3585,7 +3519,6 @@
 				46EB2E00002A40 /* SystemFunctionConfig.h */,
 				46EB2E00002A50 /* SystemFunctionConfig.mm */,
 			);
-			name = SystemFunctionConfig;
 			path = SystemFunctionConfig;
 			sourceTree = "<group>";
 		};
@@ -3595,7 +3528,6 @@
 				46EB2E00002A70 /* SystemInfoConfig.h */,
 				46EB2E00002A80 /* SystemInfoConfig.mm */,
 			);
-			name = SystemInfoConfig;
 			path = SystemInfoConfig;
 			sourceTree = "<group>";
 		};
@@ -3605,7 +3537,6 @@
 				46EB2E00002AA0 /* SystemResetConfig.h */,
 				46EB2E00002AB0 /* SystemResetConfig.mm */,
 			);
-			name = SystemResetConfig;
 			path = SystemResetConfig;
 			sourceTree = "<group>";
 		};
@@ -3617,7 +3548,6 @@
 				46EB2E00002AF0 /* TimeSynDataSource.h */,
 				46EB2E00002B00 /* TimeSynDataSource.m */,
 			);
-			name = TimeConfig;
 			path = TimeConfig;
 			sourceTree = "<group>";
 		};
@@ -3629,7 +3559,6 @@
 				46EB2E00002B40 /* UpgradeDataSource.h */,
 				46EB2E00002B50 /* UpgradeDataSource.m */,
 			);
-			name = UpgradeConfig;
 			path = UpgradeConfig;
 			sourceTree = "<group>";
 		};
@@ -3641,7 +3570,6 @@
 				46EB2E00002B90 /* VodeoRotainDataSource.h */,
 				46EB2E00002BA0 /* VodeoRotainDataSource.m */,
 			);
-			name = VideoRotationConfig;
 			path = VideoRotationConfig;
 			sourceTree = "<group>";
 		};
@@ -3651,7 +3579,6 @@
 				46EB2E00002BC0 /* WaterMarkConfig.h */,
 				46EB2E00002BD0 /* WaterMarkConfig.mm */,
 			);
-			name = WaterMarkConfig;
 			path = WaterMarkConfig;
 			sourceTree = "<group>";
 		};
@@ -3661,7 +3588,6 @@
 				46EB2E00002BF0 /* GetStorageHeadDataConfig.h */,
 				46EB2E00002C00 /* GetStorageHeadDataConfig.mm */,
 			);
-			name = "设备存储调试";
 			path = "设备存储调试";
 			sourceTree = "<group>";
 		};
@@ -3672,7 +3598,6 @@
 				46EB2E00002C50 /* DeviceManager */,
 				46EB2E00002C80 /* UserAccountManager */,
 			);
-			name = Manager;
 			path = Manager;
 			sourceTree = "<group>";
 		};
@@ -3682,7 +3607,6 @@
 				46EB2E00002C30 /* AlarmManager.h */,
 				46EB2E00002C40 /* AlarmManager.mm */,
 			);
-			name = AlarmManager;
 			path = AlarmManager;
 			sourceTree = "<group>";
 		};
@@ -3692,7 +3616,6 @@
 				46EB2E00002C60 /* DeviceManager.h */,
 				46EB2E00002C70 /* DeviceManager.mm */,
 			);
-			name = DeviceManager;
 			path = DeviceManager;
 			sourceTree = "<group>";
 		};
@@ -3702,7 +3625,6 @@
 				46EB2E00002C90 /* UserAccountModel.h */,
 				46EB2E00002CA0 /* UserAccountModel.mm */,
 			);
-			name = UserAccountManager;
 			path = UserAccountManager;
 			sourceTree = "<group>";
 		};
@@ -3716,7 +3638,6 @@
 				46EB2E00002D50 /* VideoContentDefination.h */,
 				46EB2E00002D00 /* TalkControl */,
 			);
-			name = MediaPlayControl;
 			path = MediaPlayControl;
 			sourceTree = "<group>";
 		};
@@ -3728,7 +3649,6 @@
 				46EB2E00002D30 /* TalkBackControl.h */,
 				46EB2E00002D40 /* TalkBackControl.mm */,
 			);
-			name = TalkControl;
 			path = TalkControl;
 			sourceTree = "<group>";
 		};
@@ -3737,7 +3657,6 @@
 			children = (
 				46EB2E00002D70 /* FatModel */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -3747,7 +3666,6 @@
 				46EB2E00002D80 /* DoorBellModel.h */,
 				46EB2E00002D90 /* DoorBellModel.mm */,
 			);
-			name = FatModel;
 			path = FatModel;
 			sourceTree = "<group>";
 		};
@@ -3757,7 +3675,6 @@
 				46EB2E00002DB0 /* Base */,
 				46EB2E00002E40 /* JsonHeader */,
 			);
-			name = SDKBaseFile;
 			path = SDKBaseFile;
 			sourceTree = "<group>";
 		};
@@ -3773,7 +3690,6 @@
 				46EB2E00002E20 /* SDKInitializeModel.h */,
 				46EB2E00002E30 /* SDKInitializeModel.mm */,
 			);
-			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -3806,7 +3722,6 @@
 				46EB2E000036E0 /* Users */,
 				46EB2E00003700 /* WaterMark */,
 			);
-			name = JsonHeader;
 			path = JsonHeader;
 			sourceTree = "<group>";
 		};
@@ -3817,7 +3732,6 @@
 				46EB2E00002E70 /* Detect_LossDetect.h */,
 				46EB2E00002E80 /* Detect_MotionDetect.h */,
 			);
-			name = AlarmDetect;
 			path = AlarmDetect;
 			sourceTree = "<group>";
 		};
@@ -3829,7 +3743,6 @@
 				46EB2E00002EC0 /* PirTimeSectionOne.h */,
 				46EB2E00002ED0 /* PirTimeSectionTwo.h */,
 			);
-			name = AlarmPIR;
 			path = AlarmPIR;
 			sourceTree = "<group>";
 		};
@@ -3862,7 +3775,6 @@
 				46EB2E00003060 /* TripWire.h */,
 				46EB2E00003070 /* TripWireRule.h */,
 			);
-			name = Analyzer;
 			path = Analyzer;
 			sourceTree = "<group>";
 		};
@@ -3872,7 +3784,6 @@
 				46EB2E00003090 /* AudioConfigInput.h */,
 				46EB2E000030A0 /* AudioConfigOutput.h */,
 			);
-			name = Audio;
 			path = Audio;
 			sourceTree = "<group>";
 		};
@@ -3889,7 +3800,6 @@
 				46EB2E00003130 /* PreviewFunction.h */,
 				46EB2E00003140 /* TipShow.h */,
 			);
-			name = Capability;
 			path = Capability;
 			sourceTree = "<group>";
 		};
@@ -3898,7 +3808,6 @@
 			children = (
 				46EB2E00003160 /* WorkMode_CapturePriority.h */,
 			);
-			name = CapturePriorityCfg;
 			path = CapturePriorityCfg;
 			sourceTree = "<group>";
 		};
@@ -3909,7 +3818,6 @@
 				46EB2E00003190 /* Park_AdjustInfo.h */,
 				46EB2E000031A0 /* Points.h */,
 			);
-			name = CarPark;
 			path = CarPark;
 			sourceTree = "<group>";
 		};
@@ -3921,7 +3829,6 @@
 				46EB2E000031E0 /* SystemFunction.h */,
 				46EB2E000031F0 /* SystemInfo.h */,
 			);
-			name = Common;
 			path = Common;
 			sourceTree = "<group>";
 		};
@@ -3932,7 +3839,6 @@
 				46EB2E00003220 /* PTZTour.h */,
 				46EB2E00003230 /* Tour.h */,
 			);
-			name = Cruise;
 			path = Cruise;
 			sourceTree = "<group>";
 		};
@@ -3946,7 +3852,6 @@
 				46EB2E00003290 /* MessageStatistics.h */,
 				46EB2E000032A0 /* Push */,
 			);
-			name = DoorLockID;
 			path = DoorLockID;
 			sourceTree = "<group>";
 		};
@@ -3963,7 +3868,6 @@
 				46EB2E00003320 /* PassWdManger.h */,
 				46EB2E00003330 /* Temporary.h */,
 			);
-			name = Push;
 			path = Push;
 			sourceTree = "<group>";
 		};
@@ -3985,7 +3889,6 @@
 				46EB2E00003410 /* Simplify_Encode.h */,
 				46EB2E00003420 /* Video.h */,
 			);
-			name = Encode;
 			path = Encode;
 			sourceTree = "<group>";
 		};
@@ -3994,7 +3897,6 @@
 			children = (
 				46EB2E00003440 /* FbExtraStateCtrl.h */,
 			);
-			name = ExtraStateCtrl;
 			path = ExtraStateCtrl;
 			sourceTree = "<group>";
 		};
@@ -4004,7 +3906,6 @@
 				46EB2E00003460 /* Detect_HumanDetectionDVR.h */,
 				46EB2E00003470 /* HumanDetectionIPC */,
 			);
-			name = HumanDetection;
 			path = HumanDetection;
 			sourceTree = "<group>";
 		};
@@ -4018,7 +3919,6 @@
 				46EB2E000034C0 /* RuleLine.h */,
 				46EB2E000034D0 /* RuleRegion.h */,
 			);
-			name = HumanDetectionIPC;
 			path = HumanDetectionIPC;
 			sourceTree = "<group>";
 		};
@@ -4029,7 +3929,6 @@
 				46EB2E00003500 /* MoveTrigLight.h */,
 				46EB2E00003510 /* WorkPeriod.h */,
 			);
-			name = LightBulb;
 			path = LightBulb;
 			sourceTree = "<group>";
 		};
@@ -4038,7 +3937,6 @@
 			children = (
 				46EB2E00003530 /* ModifyPassword.h */,
 			);
-			name = ModifyPassword;
 			path = ModifyPassword;
 			sourceTree = "<group>";
 		};
@@ -4048,7 +3946,6 @@
 				46EB2E00003550 /* NetWork_NetDHCP.h */,
 				46EB2E00003560 /* NetWork_Wifi.h */,
 			);
-			name = "NetWorkWI-FI";
 			path = "NetWorkWI-FI";
 			sourceTree = "<group>";
 		};
@@ -4057,7 +3954,6 @@
 			children = (
 				46EB2E00003580 /* NetWork_SetEnableVideo.h */,
 			);
-			name = NetWork_Cfg;
 			path = NetWork_Cfg;
 			sourceTree = "<group>";
 		};
@@ -4066,7 +3962,6 @@
 			children = (
 				46EB2E000035A0 /* OPSCalendar.h */,
 			);
-			name = OPSCalendar;
 			path = OPSCalendar;
 			sourceTree = "<group>";
 		};
@@ -4077,7 +3972,6 @@
 				46EB2E000035D0 /* ExposureParam.h */,
 				46EB2E000035E0 /* GainParam.h */,
 			);
-			name = Param;
 			path = Param;
 			sourceTree = "<group>";
 		};
@@ -4088,7 +3982,6 @@
 				46EB2E00003610 /* Record.h */,
 				46EB2E00003620 /* SupportExtRecord.h */,
 			);
-			name = Record;
 			path = Record;
 			sourceTree = "<group>";
 		};
@@ -4100,7 +3993,6 @@
 				46EB2E00003660 /* StorageGlobal.h */,
 				46EB2E00003670 /* StorageInfo.h */,
 			);
-			name = Storage;
 			path = Storage;
 			sourceTree = "<group>";
 		};
@@ -4109,7 +4001,6 @@
 			children = (
 				46EB2E00003690 /* Storage_Snapshot.h */,
 			);
-			name = StorageSnapshotCfg;
 			path = StorageSnapshotCfg;
 			sourceTree = "<group>";
 		};
@@ -4120,7 +4011,6 @@
 				46EB2E000036C0 /* TimeQuery.h */,
 				46EB2E000036D0 /* TimeQuery.m */,
 			);
-			name = TimeSyn;
 			path = TimeSyn;
 			sourceTree = "<group>";
 		};
@@ -4129,7 +4019,6 @@
 			children = (
 				46EB2E000036F0 /* Users.h */,
 			);
-			name = Users;
 			path = Users;
 			sourceTree = "<group>";
 		};
@@ -4142,7 +4031,6 @@
 				46EB2E00003740 /* fVideo_OsdLogo.h */,
 				46EB2E00003750 /* TimeTitleAttribute.h */,
 			);
-			name = WaterMark;
 			path = WaterMark;
 			sourceTree = "<group>";
 		};
@@ -4153,7 +4041,6 @@
 				46EB2E00003770 /* Libraries */,
 				46EB2E000038B0 /* library */,
 			);
-			name = Supporting;
 			path = Supporting;
 			sourceTree = "<group>";
 		};
@@ -4164,7 +4051,6 @@
 				46EB2E000038A0 /* SVProgressHUD.m */,
 				46EB2E00003780 /* libqrencode */,
 			);
-			name = Libraries;
 			path = Libraries;
 			sourceTree = "<group>";
 		};
@@ -4188,7 +4074,6 @@
 				46EB2E00003870 /* split.h */,
 				46EB2E00003880 /* split.m */,
 			);
-			name = libqrencode;
 			path = libqrencode;
 			sourceTree = "<group>";
 		};
@@ -4198,7 +4083,6 @@
 				46EB2E000038C0 /* FunSDK.framework */,
 				46EB2E00003A50 /* XMNetInterface.framework */,
 			);
-			name = library;
 			path = library;
 			sourceTree = "<group>";
 		};
@@ -4207,7 +4091,6 @@
 			children = (
 				46EB2E000038D0 /* Versions */,
 			);
-			name = FunSDK.framework;
 			path = FunSDK.framework;
 			sourceTree = "<group>";
 		};
@@ -4216,7 +4099,6 @@
 			children = (
 				46EB2E000038E0 /* A */,
 			);
-			name = Versions;
 			path = Versions;
 			sourceTree = "<group>";
 		};
@@ -4225,7 +4107,6 @@
 			children = (
 				46EB2E000038F0 /* Headers */,
 			);
-			name = A;
 			path = A;
 			sourceTree = "<group>";
 		};
@@ -4254,7 +4135,6 @@
 				46EB2E00003A30 /* VRSoftDef.h */,
 				46EB2E00003A40 /* XTypes.h */,
 			);
-			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
@@ -4263,7 +4143,6 @@
 			children = (
 				46EB2E00003A60 /* Headers */,
 			);
-			name = XMNetInterface.framework;
 			path = XMNetInterface.framework;
 			sourceTree = "<group>";
 		};
@@ -4273,7 +4152,6 @@
 				46EB2E00003A70 /* NetInterface.h */,
 				46EB2E00003A80 /* Reachability.h */,
 			);
-			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
@@ -4348,7 +4226,6 @@
 			children = (
 				46EB2E00003DA0 /* Libraries */,
 			);
-			name = Supporting;
 			path = Supporting;
 			sourceTree = "<group>";
 		};
@@ -4357,7 +4234,6 @@
 			children = (
 				46EB2E00003DB0 /* SVProgressHUD.bundle */,
 			);
-			name = Libraries;
 			path = Libraries;
 			sourceTree = "<group>";
 		};
@@ -6187,8 +6063,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

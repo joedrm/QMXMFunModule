@@ -12,6 +12,7 @@
 #import "QMBundleTool.h"
 #import "Masonry.h"
 #import "UIImage+QMCategory.h"
+#import "UIColor+LBECategory.h"
 
 @interface QMViewController ()
 @property (nonatomic, strong) QMXMDeviceTool* deviceTool;
@@ -23,8 +24,28 @@
 {
     [super viewDidLoad];
     
+    
     self.deviceTool = [[QMXMDeviceTool alloc] init];
     [self.deviceTool initDeviceManager];
+    
+    self.extendedLayoutIncludesOpaqueBars = true;
+    self.view.backgroundColor = UIColor.whiteColor;
+    if (@available(iOS 11.0, *)) { // iOS 11.0 及以后的版本
+        
+    } else { // iOS 11.0 之前
+        self.automaticallyAdjustsScrollViewInsets = true;
+    }
+    
+    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+    UIColor *color = [UIColor colorWithHexString:@"D93124"];
+    UIImage* img = [UIImage createImageColor:color size:CGSizeMake(10, 10)];
+    UIImage* resizableImage = [img resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0) resizingMode:UIImageResizingModeStretch];
+    [self.navigationController.navigationBar setBackgroundImage:resizableImage forBarMetrics:UIBarMetricsDefault];
+    
+    UIColor *titleColor = [UIColor colorWithHexString:@"ffffff"];
+    [self.navigationController.navigationBar setTitleTextAttributes:@{
+        NSForegroundColorAttributeName: titleColor,
+        NSFontAttributeName: [UIFont boldSystemFontOfSize:16]}];
     
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
@@ -32,12 +53,13 @@
     btn.titleLabel.font = [UIFont systemFontOfSize:12];
     btn.titleLabel.lineBreakMode = NSLineBreakByTruncatingTail;
     [btn setTitle:@"开始播放" forState:UIControlStateNormal];
-    UIImage *img = [[UIImage createImageColor:[UIColor redColor] size:CGSizeMake(10, 10)] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0) resizingMode:UIImageResizingModeStretch];
-    [btn setBackgroundImage:img forState:UIControlStateNormal];
-    [btn setBackgroundImage:img forState:UIControlStateHighlighted];
-    //    UIImage *iconImage = [QMBundleTool getSectionsImg:@""];
-    //    [btn setImage:iconImage forState:UIControlStateNormal];
-    //    [btn setImage:iconImage forState:UIControlStateSelected];
+    UIImage *btnImage = [[UIImage createImageColor:[UIColor redColor] size:CGSizeMake(10, 10)] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0) resizingMode:UIImageResizingModeStretch];
+    [btn setBackgroundImage:btnImage forState:UIControlStateNormal];
+    [btn setBackgroundImage:btnImage forState:UIControlStateHighlighted];
+    btn.titleLabel.textColor = UIColor.whiteColor;
+    [btn setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    btn.clipsToBounds = true;
+    btn.layer.cornerRadius = 4;
     [btn addTarget:self action:@selector(clickedBtn:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     [btn mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -70,4 +92,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
 @end

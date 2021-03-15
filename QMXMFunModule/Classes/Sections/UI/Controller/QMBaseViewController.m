@@ -8,6 +8,8 @@
 
 #import "QMBaseViewController.h"
 //#import "QNNLib-Swift.h"
+#import "UIColor+TransformColor.h"
+#import "UIColor+LBECategory.h"
 
 @interface QMBaseViewController ()
 
@@ -27,16 +29,16 @@
         self.automaticallyAdjustsScrollViewInsets = true;
     }
     
-//    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
-//    UIColor *color = [[UIColor alloc] initWithHexString:@"D93124" alpha:1];
-//    UIImage* img = [UIImage imageWithColor:color size:CGSizeMake(10, 10)];
-//    UIImage* resizableImage = [img resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0) resizingMode:UIImageResizingModeStretch];
-//    [self.navigationController.navigationBar setBackgroundImage:resizableImage forBarMetrics:UIBarMetricsDefault];
-//    
-//    UIColor *titleColor = [[UIColor alloc] initWithHexString:@"ffffff" alpha:1];
-//    [self.navigationController.navigationBar setTitleTextAttributes:@{
-//        NSForegroundColorAttributeName: titleColor,
-//        NSFontAttributeName: [UIFont boldSystemFontOfSize:16]}];
+    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+    UIColor *color = [UIColor colorWithHexString:@"D93124"];
+    UIImage* img = [UIImage createImageColor:color size:CGSizeMake(10, 10)];
+    UIImage* resizableImage = [img resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0) resizingMode:UIImageResizingModeStretch];
+    [self.navigationController.navigationBar setBackgroundImage:resizableImage forBarMetrics:UIBarMetricsDefault];
+  
+    UIColor *titleColor = [UIColor colorWithHexString:@"ffffff"];
+    [self.navigationController.navigationBar setTitleTextAttributes:@{
+        NSForegroundColorAttributeName: titleColor,
+        NSFontAttributeName: [UIFont boldSystemFontOfSize:16]}];
     
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -52,8 +54,6 @@
 //    spaceBarBtn.width = -15;
     
     self.navigationItem.leftBarButtonItems = @[barBtn];
-    
-    
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle {

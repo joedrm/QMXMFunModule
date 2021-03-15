@@ -8,14 +8,9 @@
 
 #import "QMXMPlayBackViewController.h"
 #import "PlayView.h"
-//#import "PlayFunctionView.h"
-//#import "PlayMenuView.h"
-//#import "DateSelectView.h"
 #import "VideoFileConfig.h"
 #import "MediaPlaybackControl.h"
 #import "NSDate+TimeCategory.h"
-//#import "ProgressBackView.h"
-//#import "FishPlayControl.h"
 #import <Masonry/Masonry.h>
 #import "QMDatePickerUtil.h"
 #import "QMPlayBackTimeCell.h"
@@ -27,12 +22,8 @@
 <VideoFileConfigDelegate,MediaplayerControlDelegate,MediaPlayBackControlDelegate, UITableViewDelegate, UITableViewDataSource, QMPlayViewDelegate>
 {
     PlayView *pVIew;                    //播放画面
-//    PlayMenuView *playMenuView;         //下方功能栏
     MediaPlaybackControl *mediaPlayer;  //播放媒体工具
-//    DateSelectView *dateView;           //时间选择器界面
     VideoFileConfig *videoConfig;       //录像文件管理器
-//    ProgressBackView *pBackView;        //时间轴所在的view
-//    FishPlayControl *feyeControl;       //鱼眼控制器
 }
 @property (nonatomic, strong) NSDate *selectedDate;
 @property (nonatomic, strong) UITableView * tableView;
