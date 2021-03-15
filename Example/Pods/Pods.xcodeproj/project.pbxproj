@@ -6529,6 +6529,42 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/QMXMFunModule/QMXMFunModule.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"bz2\"",
+					"-l\"c\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"AudioToolBox\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"FunSDK\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"OpenAL\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UserNotifications\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-framework",
+					"\"XMNetInterface\"",
+				);
 				PRODUCT_MODULE_NAME = QMXMFunModule;
 				PRODUCT_NAME = QMXMFunModule;
 				SDKROOT = iphoneos;
@@ -6561,6 +6597,42 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/QMXMFunModule/QMXMFunModule.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"bz2\"",
+					"-l\"c\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"AudioToolBox\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"FunSDK\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"OpenAL\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UserNotifications\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-framework",
+					"\"XMNetInterface\"",
+				);
 				PRODUCT_MODULE_NAME = QMXMFunModule;
 				PRODUCT_NAME = QMXMFunModule;
 				SDKROOT = iphoneos;

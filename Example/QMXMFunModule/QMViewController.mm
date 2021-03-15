@@ -70,12 +70,12 @@
 }
 
 - (void)clickedBtn:(UIButton *)sender{
-    NSString *orgID = @"0eb0dd2f-9ea0-fdaa-3931-e282a325d4fe";
-    NSString *gatewayId = @"06e5d3e38ae644c9";
+    NSString *orgID = @"";
+    NSString *gatewayId = @"";
     NSString *shopName = @"办公室NVR";
     NSString *username = @"admin";
-    NSString *pwd = @"sengled123";
-    NSString *mac = @"06e5d3e38ae644c9";
+    NSString *pwd = @"";
+    NSString *mac = @"";
     [self.deviceTool loginWithUserName:username pwd:pwd mac:mac callBack:^(DeviceObject * _Nonnull obj) {
         obj.gatewayId = gatewayId;
         obj.shopName = shopName;
