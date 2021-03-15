@@ -20,9 +20,9 @@
 
 
 // 开放平台App信息，需要在开放平台上面创建APP来生成，每一个APP对应一组不同并且唯一的平台信息，不能重复
-#define APPUUID "96a2f63113ea44c0bb5bd4db060102a1"   //客户唯一标识
-#define APPKEY "5d4bbe284bee4bc4baceea064ec7a156"   //APP唯一标识
-#define APPSECRET "7d59101663a94211b4ddc5886099d2f7"   //内容保护参数
+#define APPUUID ""   //客户唯一标识
+#define APPKEY ""   //APP唯一标识
+#define APPSECRET ""   //内容保护参数
 #define MOVECARD 4   //内容保护参数
 
 typedef NS_ENUM(int,XM_DEV_NET_CNN_TYPE){
