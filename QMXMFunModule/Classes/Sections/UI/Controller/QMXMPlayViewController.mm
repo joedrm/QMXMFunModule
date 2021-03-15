@@ -14,7 +14,6 @@
 #import "DoorBellModel.h"
 #import <Masonry/Masonry.h>
 #import "QMPlayOptionMenuView.h"
-#import "QMXMSnapshotsView.h"
 #import "UIColor+LBECategory.h"
 #import "UITextView+Placeholder.h"
 #import "QMXMPlayTableViewCell.h"
@@ -35,7 +34,6 @@
 #import "SLScrollViewKeyboardSupport.h"
 #import "QMToast.h"
 #import "LFPhotoEditingController.h"
-#import "QMPhotoEditingController.h"
 
 #define PlayViewNumberFour [[DeviceControl getInstance] getSelectChannelArray].count == 4 ? YES : NO
 #define NSNumber_Four 4
@@ -45,22 +43,19 @@
     QMPlayOptionMenuView *toolView; // 工具栏
     MediaplayerControl  *mediaPlayer;//播放媒体工具，
     TalkBackControl *talkControl;//对讲工具
-    double orginalRatio; //视频比例
     PlayView *playView;
 }
 @property (nonatomic,assign) int msgHandle;
+@property (nonatomic,assign) double orginalRatio;
 @property (nonatomic, strong) UITableView * tableView;
 @property (nonatomic, strong) NSMutableArray * tableDatas;
-@property (nonatomic, strong) ChannelObject* selectedChannel;
-@property (nonatomic, strong) QMXMSnapshotsView* snapshotsView;
 @property (nonatomic, strong) QMPhotoPickerService* service;
 @property (nonatomic, strong) QMQuestionInputView* inputView;
 @property (nonatomic, strong) QMCommitButton * commitBtn;
 @property (nonatomic, strong) UIView * tableHeaderView;
 @property (nonatomic, assign) BOOL isFull;
-//@property (nonatomic, strong) NSMutableArray <QMUserModel*>* users;
+@property (nonatomic, strong) NSMutableArray <QMUserModel*>* users;
 @property (nonatomic, strong) SLScrollViewKeyboardSupport *keyBoradsSupport;
-@property (nonatomic, assign) NSInteger photoEditIndex;
 @property (nonatomic, copy) NSString *selectedTempleteID;
 @property (nonatomic, copy) NSString *templeteParam;
 @property (nonatomic, strong) NSMutableArray <QMScoreItemModel*>* selectedGrads;
@@ -114,16 +109,16 @@
 //}
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations{
-//    return UIInterfaceOrientationMaskPortrait;
+    //    return UIInterfaceOrientationMaskPortrait;
     return UIInterfaceOrientationMaskLandscapeRight |UIInterfaceOrientationMaskPortrait;
 }
 
 - (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation{
- return UIInterfaceOrientationPortrait;
+    return UIInterfaceOrientationPortrait;
 }
 
 -(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
-     [self layoutWithDeviceOrientation:toInterfaceOrientation];
+    [self layoutWithDeviceOrientation:toInterfaceOrientation];
 }
 
 -(void)layoutWithDeviceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
@@ -131,15 +126,15 @@
     if (toInterfaceOrientation == UIInterfaceOrientationLandscapeLeft || \
         toInterfaceOrientation == UIInterfaceOrientationLandscapeRight) {
         isPortrait = NO;
-//        playView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+        //        playView.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
         [playView mas_remakeConstraints:^(MASConstraintMaker *make) {
-//            make.height.mas_equalTo(self.view.mas_height);
-//            make.width.mas_equalTo(self.view.mas_width);
+            //            make.height.mas_equalTo(self.view.mas_height);
+            //            make.width.mas_equalTo(self.view.mas_width);
             make.edges.mas_equalTo(self.view);
         }];
     }else{
         isPortrait = YES;
-//        playView.frame = CGRectMake(0, 0, SCREEN_WIDTH, realPlayViewHeight);
+        //        playView.frame = CGRectMake(0, 0, SCREEN_WIDTH, realPlayViewHeight);
         [playView mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.width.mas_equalTo(self.view.mas_width);
             make.left.mas_equalTo(self.view);
@@ -153,12 +148,12 @@
     self.commitBtn.hidden = !isPortrait;
     self.tableView.hidden = !isPortrait;
     self.navigationController.navigationBar.hidden = !isPortrait;
-
-//    [self.tableView reloadData];
-//    [UIViewController attemptRotationToDeviceOrientation];
-//    [self.view setNeedsUpdateConstraints];
-//    [self.view updateConstraintsIfNeeded];
-//
+    
+    //    [self.tableView reloadData];
+    //    [UIViewController attemptRotationToDeviceOrientation];
+    //    [self.view setNeedsUpdateConstraints];
+    //    [self.view updateConstraintsIfNeeded];
+    //
     if (isPortrait) {
         [self.tableView mas_updateConstraints:^(MASConstraintMaker *make) {
             make.left.right.mas_equalTo(self.view);
@@ -167,10 +162,10 @@
         }];
     }
     
-//    [self.view setNeedsUpdateConstraints];
-//    [self.view updateConstraintsIfNeeded];
+    //    [self.view setNeedsUpdateConstraints];
+    //    [self.view updateConstraintsIfNeeded];
     [UIView animateWithDuration:0.3 animations:^{
-      [self.view layoutIfNeeded];
+        [self.view layoutIfNeeded];
     }];
 }
 
@@ -178,7 +173,7 @@
 - (void)startRealPlay {
     [playView playViewBufferIng];
     [mediaPlayer start];
-//    [self openSound];
+    //    [self openSound];
 }
 
 #pragma mark 切换码流
@@ -197,7 +192,7 @@
     }
     //重新播放预览
     [mediaPlayer start];
-//    [self openSound];
+    //    [self openSound];
 }
 
 #pragma mark 停止录像
@@ -282,7 +277,7 @@
     }else{//缓冲完成
         // 预览开始时抓张设备缩略图 当背景
         
-        orginalRatio = ratioDetail;
+        self.orginalRatio = ratioDetail;
         NSString* thumbnailPathName = [NSString devThumbnailFile:self.deviceObj.gatewayId andChannle:0];
         FUN_MediaGetThumbnail(mediaPlayer.player, thumbnailPathName.UTF8String,1);
         [playView playViewBufferEnd];
@@ -341,22 +336,22 @@
 UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
 #pragma mark 用户自定义信息帧回调，通过这个判断是什么模式在预览
 -(void)mediaPlayer:(MediaplayerControl*)mediaPlayer Hardandsoft:(int)Hardandsoft Hardmodel:(int)Hardmodel {
-//    if (Hardandsoft == 3 || Hardandsoft == 4 || Hardandsoft == 5) {
-//        //创建鱼眼预览界面
-//        [self mediaPlayer:mediaPlayer createFeye:Hardandsoft Hardmodel:Hardmodel];
-//    }
+    //    if (Hardandsoft == 3 || Hardandsoft == 4 || Hardandsoft == 5) {
+    //        //创建鱼眼预览界面
+    //        [self mediaPlayer:mediaPlayer createFeye:Hardandsoft Hardmodel:Hardmodel];
+    //    }
 }
 #pragma mark YUV数据回调
 -(void)mediaPlayer:(MediaplayerControl*)mediaPlayer width:(int)width height:(int)height pYUV:(unsigned char *)pYUV {
-//    [[feyeArray objectAtIndex:mediaPlayer.index]  PushData:width height:height YUVData:pYUV];
+    //    [[feyeArray objectAtIndex:mediaPlayer.index]  PushData:width height:height YUVData:pYUV];
 }
 #pragma mark - 设备时间（鱼眼）
 -(void)mediaPlayer:(MediaplayerControl*)mediaPlayer DevTime:(NSString *)time {
-//    [[feyeArray objectAtIndex:mediaPlayer.index] setTimeLabelText:time];
+    //    [[feyeArray objectAtIndex:mediaPlayer.index] setTimeLabelText:time];
 }
 #pragma mark 鱼眼软解坐标参数
 -(void)centerOffSetX:(MediaplayerControl*)mediaPlayer  offSetx:(short)OffSetx offY:(short)OffSetY  radius:(short)radius width:(short)width height:(short)height {
-//    [[feyeArray objectAtIndex:mediaPlayer.index] centerOffSetX:OffSetx offY:OffSetY radius:radius width:width height:height];
+    //    [[feyeArray objectAtIndex:mediaPlayer.index] centerOffSetX:OffSetx offY:OffSetY radius:radius width:width height:height];
 }
 #pragma mark 鱼眼画面智能分析报警自动旋转画面
 -(void)mediaPlayer:(MediaplayerControl*)mediaPlayer AnalyzelLength:(int)length site:(int)type Analyzel:(char*)area {
@@ -397,7 +392,7 @@ UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
 #pragma mark - 界面初始化
 - (void)initUI {
     
-//    self.users = [NSMutableArray array];
+    self.users = [NSMutableArray array];
     
     
     UIView* headerView = [[UIView alloc] init];
@@ -452,17 +447,14 @@ UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
             }else if (index == 2){
                 [strongSelf takePhoto];
             }else {
-
+                
             }
         }];
     };
     xmsnapshotView.itemClicked = ^(UIImage * _Nonnull img, NSInteger index) {
         __strong typeof(self) strongSelf = weakSelf;
         strongSelf.photoEditIndex = index;
-        QMPhotoEditingController* editImgVC = [[QMPhotoEditingController alloc] init];
-        editImgVC.delegate = strongSelf;
-        editImgVC.editImage = img;
-        [strongSelf.navigationController pushViewController:editImgVC animated:true];
+        [strongSelf photoEditWithImg:img];
     };
     [xmsnapshotView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.mas_equalTo(headerView);
@@ -551,30 +543,30 @@ UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
 
 - (void) commitAction:(UIButton *)sender {
     
-//    NSString* inputText = self.inputView.textView.text;
-//    if (self.users.count <= 0 ) {
-//        [QMToast show:@"请选择处理人"];
-//        return;
-//    }
-//    QMUserModel* user = self.users.firstObject;
-//    QMTempleteModel* templete = [[QMTempleteModel alloc] init];
-//    int score = 0;
-//    for (QMScoreItemModel* sc in self.selectedGrads) {
-//        score += int(sc.score);
-//    }
+    NSString* inputText = self.inputView.textView.text;
+    if (self.users.count <= 0 ) {
+        [QMToast show:@"请选择处理人"];
+        return;
+    }
+    QMUserModel* user = self.users.firstObject;
+    QMTempleteModel* templete = [[QMTempleteModel alloc] init];
+    int score = 0;
+    for (QMScoreItemModel* sc in self.selectedGrads) {
+        score += int(sc.score);
+    }
 //    __weak typeof(self) weakSelf = self;
-//    [QMOCBridgeTool commitScanShopTempleteVC:self
-//                                         org:self.shopID
-//                                     handler:user.userId
-//                                     problem:inputText
-//                                  templeteId:self.selectedTempleteID
-//                                      grades:self.templeteParam
-//                                       score:score
-//                                      images:self.snapshotsView.snaps
-//                               completeBlock:^{
+    [self commitScanShopTempleteVC:self
+                               org:self.shopID
+                           handler:user.userId
+                           problem:inputText
+                        templeteId:self.selectedTempleteID
+                            grades:self.templeteParam
+                             score:score
+                            images:self.snapshotsView.snaps
+                     completeBlock:^{
 //        __strong typeof(self) strongSelf = weakSelf;
 //        [strongSelf backAction];
-//    }];
+    }];
 }
 
 #pragma mark - Getter
@@ -603,13 +595,13 @@ UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
 
 #pragma mark 初始化鱼眼播放界面
 -(void)mediaPlayer:(MediaplayerControl*)mediaPlayer createFeye:(int)Hardandsoft Hardmodel:(int)Hardmodel{
-//    [[feyeArray objectAtIndex:mediaPlayer.index] createFeye:Hardandsoft frameSize:playView.frame];
-//    GLKViewController *glkVC= [[feyeArray objectAtIndex:mediaPlayer.index] getFeyeViewController];
-//    [self addChildViewController:glkVC];
-//    [playView addSubview:glkVC.view];
-//    hardandsoft = Hardandsoft;
-//    hardmodel = Hardmodel;
-//    [[feyeArray objectAtIndex:mediaPlayer.index] refreshSoftModel:(int)Hardandsoft model:Hardmodel];
+    //    [[feyeArray objectAtIndex:mediaPlayer.index] createFeye:Hardandsoft frameSize:playView.frame];
+    //    GLKViewController *glkVC= [[feyeArray objectAtIndex:mediaPlayer.index] getFeyeViewController];
+    //    [self addChildViewController:glkVC];
+    //    [playView addSubview:glkVC.view];
+    //    hardandsoft = Hardandsoft;
+    //    hardmodel = Hardmodel;
+    //    [[feyeArray objectAtIndex:mediaPlayer.index] refreshSoftModel:(int)Hardandsoft model:Hardmodel];
 }
 
 
@@ -712,16 +704,14 @@ UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
 - (void)stopTalk {
     //停止对讲
     [talkControl closeTalk];
-//    if (talkView) {
-//        [talkView cannelTheView];
-//    }
+    //    if (talkView) {
+    //        [talkView cannelTheView];
+    //    }
 }
 
 #pragma mark - 跳转到视频回放界面
 -(void)presentPlayBackViewController {
-    QMXMPlayBackViewController *playBack = [[QMXMPlayBackViewController alloc] init];
-    playBack.channel = self.selectedChannel;
-    [self.navigationController pushViewController:playBack animated:YES];
+    [self toPlayBackVC];
 }
 
 #pragma mark - 打开预览，获取视频YUV数据进行处理
@@ -800,10 +790,10 @@ UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
                     {
                         ChannelObject *channel = [[[DeviceControl getInstance] getSelectChannelArray] firstObject];
                         
-//                        RealPlayControlViewController *vc = [[RealPlayControlViewController alloc]init];
-//                        vc.devMac = channel.deviceMac;
-//                        vc.allChannelNum = (int)[[DeviceControl getInstance] allChannelNum];
-//                        [self.navigationController pushViewController:vc animated:YES];
+                        //                        RealPlayControlViewController *vc = [[RealPlayControlViewController alloc]init];
+                        //                        vc.devMac = channel.deviceMac;
+                        //                        vc.allChannelNum = (int)[[DeviceControl getInstance] allChannelNum];
+                        //                        [self.navigationController pushViewController:vc animated:YES];
                     }
                     else
                     {
@@ -890,48 +880,70 @@ UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
     [QMKeyWindow endEditing:true];
     QMXMPlayTableViewCell* cell = [tableView cellForRowAtIndexPath:indexPath];
     __weak typeof(self) weakSelf = self;
-//    if (indexPath.row == 0) {
-//        [QMOCBridgeTool pushChooseTempleteVCOrg:self.shopID selectedTempleteID:self.selectedTempleteID selectedGrads:self.selectedGrads callBack:^(NSString * _Nonnull templeteID, NSString * _Nonnull param, NSArray<QMScoreItemModel *> * _Nonnull selectedGrads) {
-//            __strong typeof(self) strongSelf = weakSelf;
-//            strongSelf.selectedTempleteID = templeteID;
-//            strongSelf.selectedGrads = selectedGrads;
-//            strongSelf.templeteParam = param;
-//            cell.subTitleLabel.text = @"已选择";
-//        }];
-//    }
-//    if (indexPath.row == 1) {
-//        [QMOCBridgeTool pushReportHandlerVCWithOrg:self.shopID selectedUsers:self.users callBack:^(NSArray<QMUserModel *> * _Nonnull selectedUsers) {
-//            __strong typeof(self) strongSelf = weakSelf;
-//            NSString* titleString = @"";
-//            [self.users removeAllObjects];
-//            for (int i = 0; i < selectedUsers.count; i ++) {
-//                QMUserModel* user = selectedUsers[i];
-//                if (user.name.length <= 0) {
-//                    titleString = [titleString stringByAppendingFormat:@"%@", user.username];
-//                }else{
-//                    titleString = [titleString stringByAppendingFormat:@"%@", user.name];
-//                }
-//                if (i < selectedUsers.count - 1) {
-//                    titleString = [titleString stringByAppendingFormat:@"、"];
-//                }
-//                [self.users addObject:user];
-//            }
-//            cell.subTitleLabel.text = titleString;
-//        }];
-//    }
+    if (indexPath.row == 0) {
+        [self pushChooseTempleteVCOrg:self.shopID selectedTempleteID:self.selectedTempleteID selectedGrads:self.selectedGrads callBack:^(NSString * _Nonnull templeteID, NSString * _Nonnull param, NSArray<QMScoreItemModel *> * _Nonnull selectedGrads) {
+            __strong typeof(self) strongSelf = weakSelf;
+            strongSelf.selectedTempleteID = templeteID;
+            strongSelf.selectedGrads = selectedGrads;
+            strongSelf.templeteParam = param;
+            cell.subTitleLabel.text = @"已选择";
+        }];
+    }
+    if (indexPath.row == 1) {
+        [self pushReportHandlerVCWithOrg:self.shopID selectedUsers:self.users callBack:^(NSArray<QMUserModel *> * _Nonnull selectedUsers) {
+            __strong typeof(self) strongSelf = weakSelf;
+            NSString* titleString = @"";
+            [self.users removeAllObjects];
+            for (int i = 0; i < selectedUsers.count; i ++) {
+                QMUserModel* user = selectedUsers[i];
+                if (user.name.length <= 0) {
+                    titleString = [titleString stringByAppendingFormat:@"%@", user.username];
+                }else{
+                    titleString = [titleString stringByAppendingFormat:@"%@", user.name];
+                }
+                if (i < selectedUsers.count - 1) {
+                    titleString = [titleString stringByAppendingFormat:@"、"];
+                }
+                [self.users addObject:user];
+            }
+            cell.subTitleLabel.text = titleString;
+        }];
+    }
 }
 
 
 #pragma mark - LFPhotoEditingControllerDelegate
-- (void)lf_PhotoEditingControllerDidCancel:(LFPhotoEditingController *)photoEditingVC {
-    [photoEditingVC.navigationController popViewControllerAnimated:true];
+//- (void)lf_PhotoEditingControllerDidCancel:(LFPhotoEditingController *)photoEditingVC {
+//    [photoEditingVC.navigationController popViewControllerAnimated:true];
+//}
+//
+//- (void)lf_PhotoEditingController:(LFPhotoEditingController *)photoEditingVC didFinishPhotoEdit:(LFPhotoEdit *)photoEdit {
+//    if (photoEdit != nil) {
+//        [self.snapshotsView replacePhotoImageIndex:self.photoEditIndex editedImage:photoEdit.editPreviewImage];
+//    }
+//    [photoEditingVC.navigationController popViewControllerAnimated:true];
+//}
+
+
+
+#pragma mark - 子类实现
+- (void)pushReportHandlerVCWithOrg:(NSString *)org selectedUsers:(NSArray<QMUserModel *> *)users callBack:(ReportHandlerBlock)saveBlock {
+    
 }
 
-- (void)lf_PhotoEditingController:(LFPhotoEditingController *)photoEditingVC didFinishPhotoEdit:(LFPhotoEdit *)photoEdit {
-    if (photoEdit != nil) {
-        [self.snapshotsView replacePhotoImageIndex:self.photoEditIndex editedImage:photoEdit.editPreviewImage];
-    }
-    [photoEditingVC.navigationController popViewControllerAnimated:true];
+- (void)pushChooseTempleteVCOrg:(NSString *)org selectedTempleteID:(NSString *)templeteID selectedGrads:(NSArray<QMScoreItemModel *> *)selectedGrads callBack:(ChooseTempleteBlock)saveBlock {
+    
 }
 
+- (void)commitScanShopTempleteVC:(UIViewController *)vc org:(NSString *)org handler:(NSString *)handler problem:(NSString *)problem templeteId:(NSString *)templeteId grades:(NSString *)grades score:(int)score images:(NSArray<UIImage *> *)images completeBlock:(ReportCommitComplete)completeBlock {
+    
+}
+
+- (void)photoEditWithImg:(UIImage *)currentImage {
+    
+}
+
+- (void)toPlayBackVC {
+    
+}
 @end

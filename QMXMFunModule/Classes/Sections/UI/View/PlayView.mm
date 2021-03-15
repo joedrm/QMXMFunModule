@@ -16,7 +16,7 @@
 #import "VideoContentDefination.h"
 #import "TimeInfo.h"
 #import "QMPixHeader.h"
-#import <TZImagePickerController/UIView+TZLayout.h>
+#import "UIView+Helpers.h"
 
 @interface PlayView() {
     float _add;         //每次跳转的时间
@@ -215,7 +215,7 @@
     }];
     
     UISlider *slider = [[UISlider alloc] initWithFrame:CGRectZero];
-    slider.tz_height = 10;
+    [slider setFrameSizeHeight:10];
     slider.minimumValue = 0;
     slider.maximumValue = 3600; // 设置最大值
     slider.value = 0; // 设置初始值
