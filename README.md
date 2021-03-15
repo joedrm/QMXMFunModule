@@ -14,7 +14,7 @@
     pod 'QMXMFunModule', :path => 'QMXMFunModule'
     ```
 
-2. 在 `QMXMFunModuleHeader.h` 配置SDK使用的参数:
+2. 在 `QMXMFunModuleHeader.h` 配置初始化SDK使用的参数:
     ```Objc
     #define APPUUID ""   //客户唯一标识
     #define APPKEY ""   //APP唯一标识
