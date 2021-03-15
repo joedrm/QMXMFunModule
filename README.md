@@ -21,10 +21,11 @@ pod 'QMXMFunModule', :path => 'QMXMFunModule'
 5. 支持模拟器和真机上播放。
 
 ## 项目示例图片
-![](https://ftp.bmp.ovh/imgs/2021/03/417290539a793b2f.jpeg){:height="50%" width="50%"}
-![](https://ftp.bmp.ovh/imgs/2021/03/dcbfcf3a0f00012c.jpeg){:height="50%" width="50%"}
-![](https://ftp.bmp.ovh/imgs/2021/03/f47db3f1fe75126f.jpeg){:height="50%" width="50%"}
-![](https://ftp.bmp.ovh/imgs/2021/03/393ba1fdaaf631d8.jpeg){:height="50%" width="50%"}
+![](https://ftp.bmp.ovh/imgs/2021/03/417290539a793b2f.jpeg)
+<img src=https://ftp.bmp.ovh/imgs/2021/03/417290539a793b2f.jpeg width=60% />
+![](https://ftp.bmp.ovh/imgs/2021/03/dcbfcf3a0f00012c.jpeg)
+![](https://ftp.bmp.ovh/imgs/2021/03/f47db3f1fe75126f.jpeg)
+![](https://ftp.bmp.ovh/imgs/2021/03/393ba1fdaaf631d8.jpeg)
 
 ## Author
 
