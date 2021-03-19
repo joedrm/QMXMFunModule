@@ -59,7 +59,7 @@
 #pragma mark - 弹出视图
 - (UIView *)alertView {
     if (!_alertView) {
-        _alertView = [[UIView alloc]initWithFrame:CGRectMake(0, SCREEN_HEIGHT - self.manager.kTopViewH - self.manager.kPickerViewH, SCREEN_WIDTH, self.manager.kTopViewH + self.manager.kPickerViewH)];
+        _alertView = [[UIView alloc]initWithFrame:CGRectMake(0, QMScreen_Height - self.manager.kTopViewH - self.manager.kPickerViewH, SCREEN_WIDTH, self.manager.kTopViewH + self.manager.kPickerViewH)];
         _alertView.backgroundColor = [UIColor whiteColor];
     }
     return _alertView;

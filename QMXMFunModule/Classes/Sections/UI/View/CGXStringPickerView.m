@@ -162,7 +162,7 @@
     if (animation) {
         // 动画前初始位置
         CGRect rect = self.alertView.frame;
-        rect.origin.y = SCREEN_HEIGHT;
+        rect.origin.y = QMScreen_Height;
         self.alertView.frame = rect;
         
         // 浮现动画

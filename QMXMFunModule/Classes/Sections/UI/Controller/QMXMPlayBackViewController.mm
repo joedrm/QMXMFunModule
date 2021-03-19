@@ -25,7 +25,6 @@
     MediaPlaybackControl *mediaPlayer;  //播放媒体工具
     VideoFileConfig *videoConfig;       //录像文件管理器
 }
-@property (nonatomic, strong) NSDate *selectedDate;
 @property (nonatomic, strong) UITableView * tableView;
 @property (nonatomic,strong) NSMutableArray <RecordInfo *> *videoArray;
 @property (nonatomic, strong) RecordInfo* recordInfo;
@@ -128,12 +127,17 @@
 
 
 - (void)chooseDate:(UIButton *)sender {
-    __weak typeof(self) weakSelf = self;
-    [QMDatePickerUtil showDatePicker:@"请选择时间" callBack:^(NSDate * _Nonnull date) {
-        __strong typeof(self) strongSelf = weakSelf;
-        strongSelf.selectedDate = date;
-        [strongSelf dateSelectedAction];
-    }];
+//    __weak typeof(self) weakSelf = self;
+//    [QMDatePickerUtil showDatePicker:@"请选择时间" callBack:^(NSDate * _Nonnull date) {
+//        __strong typeof(self) strongSelf = weakSelf;
+//        strongSelf.selectedDate = date;
+//        [strongSelf dateSelectedAction];
+//    }];
+    [self showDatePicker];
+}
+
+- (void)showDatePicker {
+    
 }
 
 
