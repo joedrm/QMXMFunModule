@@ -314,10 +314,12 @@
                 if (msg->param1 == -99992) {
                     if ([NSString checkSSID:[NSString getCurrent_SSID]]) {//直连方式增加设备
                     }else{
-                       [MessageUI ShowErrorInt:msg->param1];//非直连增加设备
+//                       [MessageUI ShowErrorInt:msg->param1];//非直连增加设备
+                        [MessageUI ShowError:@"未找到设备"];
                     }
                 }else{
-                    [MessageUI ShowErrorInt:msg->param1];
+//                    [MessageUI ShowErrorInt:msg->param1];
+                    [MessageUI ShowError:@"未找到设备"];
                 }
             }else{
                 //添加设备成功
@@ -440,7 +442,8 @@
             NSMutableArray *searchArray = [[NSMutableArray alloc] initWithCapacity:0];
             if (msg->param1 <= 0) {
                 //没有搜索到设备
-                [MessageUI ShowErrorInt:msg->param1];
+//                [MessageUI ShowErrorInt:msg->param1];
+                [MessageUI ShowError:@"未找到设备"];
                 break;
             }
             [SVProgressHUD dismiss];
@@ -489,7 +492,8 @@
         {
             if (msg->param1 <= 0) {
                 //没有搜索到设备
-                [MessageUI ShowErrorInt:msg->param1];
+//                [MessageUI ShowErrorInt:msg->param1];
+                [MessageUI ShowError:@"未找到设备"];
                 break;
             }
             [SVProgressHUD dismiss];
@@ -516,7 +520,8 @@
         {
             if (msg->param1 <= 0) {
                 //没有搜索到设备
-                [MessageUI ShowErrorInt:msg->param1];
+//                [MessageUI ShowErrorInt:msg->param1];
+                [MessageUI ShowError:@"未找到设备"];
                 break;
             }
             [SVProgressHUD dismiss];

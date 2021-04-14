@@ -7,12 +7,8 @@
 //
 
 #import "QMViewController.h"
-#import "QMXMPlayViewController.h"
-#import "QMXMDeviceTool.h"
-#import "QMBundleTool.h"
-#import "Masonry.h"
-#import "UIImage+QMCategory.h"
-#import "UIColor+LBECategory.h"
+#import "QMXMFunModule_Example-Bridging-Header.h"
+//#import <QNNLib/QNNLib-Swift.h>
 
 @interface QMViewController ()
 @property (nonatomic, strong) QMXMDeviceTool* deviceTool;
@@ -35,7 +31,7 @@
     } else { // iOS 11.0 之前
         self.automaticallyAdjustsScrollViewInsets = true;
     }
-    
+//    self.view.
     [self.navigationController.navigationBar setShadowImage:[UIImage new]];
     UIColor *color = [UIColor colorWithHexString:@"D93124"];
     UIImage* img = [UIImage createImageColor:color size:CGSizeMake(10, 10)];
@@ -82,6 +78,7 @@
         QMXMPlayViewController * vc = [[QMXMPlayViewController alloc] init];
         vc.deviceObj = obj;
         vc.shopID = orgID;
+//        vc
         [self.navigationController pushViewController:vc animated:true];
     }];
 }

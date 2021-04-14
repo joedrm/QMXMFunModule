@@ -97,7 +97,8 @@
 //                        [self presentViewController:alert animated:YES completion:nil];
             return;
         }
-        [MessageUI ShowErrorInt:result];
+//        [MessageUI ShowErrorInt:result];
+        [SVProgressHUD showErrorWithStatus:@"未找到设备" duration:2];
         return;
     }
     [SVProgressHUD dismiss];

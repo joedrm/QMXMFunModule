@@ -242,7 +242,10 @@
             [self presentViewController:alert animated:YES completion:nil];
             return;
         }
-        [MessageUI ShowErrorInt:result];
+//        [MessageUI ShowErrorInt:result];
+        
+        [MessageUI ShowError:@"播放失败"];
+        
     }else {
         if (dssResult == XM_NET_TYPE_DSS) { //DSS 打开视频成功
             
@@ -301,7 +304,8 @@
         
         //        [toolView refreshFunctionView:CONTROL_REALPLAY_VIDEO result:YES];
     }else{
-        [MessageUI ShowErrorInt:result];
+//        [MessageUI ShowErrorInt:result];
+        [MessageUI ShowError:@"播放失败"];
         //        [toolView refreshFunctionView:CONTROL_REALPLAY_VIDEO result:NO];
     }
 }
@@ -311,7 +315,8 @@
         [SVProgressHUD showSuccessWithStatus:TS("Success") duration:2.0];
         [self closeSound];
     }else{
-        [MessageUI ShowErrorInt:result];
+//        [MessageUI ShowErrorInt:result];
+        [MessageUI ShowError:@"播放失败"];
     }
     //    [toolView refreshFunctionView:CONTROL_REALPLAY_VIDEO result:NO];
     mediaPlayer.record = MediaRecordTypeNone;
@@ -324,7 +329,8 @@
         //        [snapshotsView reloadSnapshotData:self.snaps];
         [self.snapshotsView addPhotoWithFilePath:path];
     }else{
-        [MessageUI ShowErrorInt:result];
+//        [MessageUI ShowErrorInt:result];
+        [MessageUI ShowError:@"抓图失败"];
     }
 }
 
@@ -753,12 +759,14 @@ UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
         case EMSG_DEV_GET_CONFIG_JSON:{
             if (msg->param1 <0) {
                 [SVProgressHUD dismiss];
-                [SVProgressHUD showErrorWithStatus:[NSString stringWithFormat:@"%i",(int)msg->param1]];
+//                [SVProgressHUD showErrorWithStatus:[NSString stringWithFormat:@"%i",(int)msg->param1]];
+                [SVProgressHUD showErrorWithStatus:@"播放失败"];
             }
             else
             {
                 [SVProgressHUD dismiss];
                 if (msg->pObject == nil) {
+                    [SVProgressHUD showErrorWithStatus:@"播放失败"];
                     return;
                 }
                 SDK_CameraParam *pParam = (SDK_CameraParam *)msg->pObject;
@@ -791,7 +799,8 @@ UIPinchGestureRecognizer *twoFingerPinch;//硬解码捏合手势
                     }
                     else
                     {
-                        [SVProgressHUD showErrorWithStatus:TS("TR_Not_Support_Function") duration:1.5];
+//                        [SVProgressHUD showErrorWithStatus:TS("TR_Not_Support_Function") duration:1.5];
+                        [SVProgressHUD showErrorWithStatus:@"播放失败"];
                     }
                 }
                 

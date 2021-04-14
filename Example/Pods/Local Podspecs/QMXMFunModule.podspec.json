@@ -19,6 +19,7 @@
     "ios": "9.0"
   },
   "source_files": "QMXMFunModule/Classes/**/*.{h,m,mm}",
+  "swift_versions": "4.0",
   "resource_bundles": {
     "QMXMFunModule": [
       "QMXMFunModule/Assets/*.png",
@@ -80,6 +81,10 @@
     ],
     "MJExtension": [
 
+    ],
+    "QNNLib": [
+
     ]
-  }
+  },
+  "swift_version": "4.0"
 }

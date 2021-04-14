@@ -221,7 +221,8 @@
         [pVIew refreshPlayProgressByRecordFile:self.recordInfo];
         [self.tableView reloadData];
     } else{
-        [SVProgressHUD showErrorWithStatus:TS("Video_Not_Found")];
+//        [SVProgressHUD showErrorWithStatus:TS("Video_Not_Found")];
+        [SVProgressHUD showErrorWithStatus:@"未找到视频"];
     }
 }
 
@@ -259,7 +260,8 @@ time_t ToTime_t(SDK_SYSTEM_TIME *pDvrTime);
 #pragma mark - 开始预览结果回调
 -(void)mediaPlayer:(MediaplayerControl*)mediaPlayer startResult:(int)result DSSResult:(int)dssResult {
     if (result < 0) {
-        [MessageUI ShowErrorInt:result];
+//        [MessageUI ShowErrorInt:result];
+        [MessageUI ShowError:@"播放失败"];
     }else {
         if (dssResult == XM_NET_TYPE_DSS) { //DSS 打开视频成功
 
@@ -285,7 +287,8 @@ time_t ToTime_t(SDK_SYSTEM_TIME *pDvrTime);
     if (result == EE_OK) { //开始录像成功
         mediaPlayer.record = MediaRecordTypeRecording;
     }else{
-        [MessageUI ShowErrorInt:result];
+//        [MessageUI ShowErrorInt:result];
+        [MessageUI ShowError:@"播放失败"];
     }
 }
 #pragma mark - 录像结束结果
@@ -293,7 +296,8 @@ time_t ToTime_t(SDK_SYSTEM_TIME *pDvrTime);
     if (result == EE_OK) { //结束录像成功
         [SVProgressHUD showSuccessWithStatus:TS("Success") duration:2.0];
     }else{
-        [MessageUI ShowErrorInt:result];
+//        [MessageUI ShowErrorInt:result];
+        [MessageUI ShowError:@"播放失败"];
     }
     mediaPlayer.record = MediaRecordTypeNone;
 }
@@ -307,7 +311,8 @@ time_t ToTime_t(SDK_SYSTEM_TIME *pDvrTime);
             mediaPlayer.speed = MediaSpeedStateAdd;
         }
     }else{
-        [MessageUI ShowErrorInt:result];
+//        [MessageUI ShowErrorInt:result];
+        [MessageUI ShowError:@"设置失败"];
     }
 }
 

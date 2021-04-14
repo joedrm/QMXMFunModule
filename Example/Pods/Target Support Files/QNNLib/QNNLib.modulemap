@@ -1,0 +1,6 @@
+framework module QNNLib {
+  umbrella header "QNNLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
