@@ -29,16 +29,27 @@
         self.automaticallyAdjustsScrollViewInsets = true;
     }
     
-    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
     UIColor *color = [UIColor colorWithHexString:@"D93124"];
     UIImage* img = [UIImage createImageColor:color size:CGSizeMake(10, 10)];
     UIImage* resizableImage = [img resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0) resizingMode:UIImageResizingModeStretch];
-    [self.navigationController.navigationBar setBackgroundImage:resizableImage forBarMetrics:UIBarMetricsDefault];
-  
     UIColor *titleColor = [UIColor colorWithHexString:@"ffffff"];
-    [self.navigationController.navigationBar setTitleTextAttributes:@{
-        NSForegroundColorAttributeName: titleColor,
-        NSFontAttributeName: [UIFont boldSystemFontOfSize:16]}];
+    if (@available(iOS 13.0, *)) {
+        UINavigationBarAppearance * appearance = [[UINavigationBarAppearance alloc] init];
+        [appearance configureWithOpaqueBackground];
+        appearance.backgroundImage = resizableImage;
+        [appearance setTitleTextAttributes:@{
+            NSForegroundColorAttributeName: titleColor,
+            NSFontAttributeName: [UIFont boldSystemFontOfSize:16]}];
+        self.navigationController.navigationBar.standardAppearance = appearance;
+        self.navigationController.navigationBar.scrollEdgeAppearance = appearance;
+        
+    } else {
+        [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+        [self.navigationController.navigationBar setBackgroundImage:resizableImage forBarMetrics:UIBarMetricsDefault];
+        [self.navigationController.navigationBar setTitleTextAttributes:@{
+            NSForegroundColorAttributeName: titleColor,
+            NSFontAttributeName: [UIFont boldSystemFontOfSize:16]}];
+    }
     
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
