@@ -31,19 +31,6 @@
 4. 支持对抓拍的图片进行编辑，也可以拍照或者选择本地图片来编辑。
 5. 支持模拟器和真机上播放。
 
-## 项目示例图片
-1. 通道切换
-<img src=https://ftp.bmp.ovh/imgs/2021/03/417290539a793b2f.jpeg width=50% />
-
-2. 拍照或者选择本地图片来编辑
-<img src=https://ftp.bmp.ovh/imgs/2021/03/dcbfcf3a0f00012c.jpeg width=50% />
-
-3. 远程历史视频回放
-<img src=https://ftp.bmp.ovh/imgs/2021/03/393ba1fdaaf631d8.jpeg width=50% />
-
-4. 横屏全屏播放
-<img src=https://ftp.bmp.ovh/imgs/2021/03/f47db3f1fe75126f.jpeg width=90%/>
-
 ## Author
 
 wf_pinbo@163.com
